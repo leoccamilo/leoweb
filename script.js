@@ -510,3 +510,27 @@ applyLanguage(savedLanguage || browserLanguage);
 document.getElementById("language-switch")?.addEventListener("change", (event) => {
   applyLanguage(event.target.value);
 });
+
+function initAnalytics() {
+  const cfg = window.PORTFOLIO_ANALYTICS || {};
+  const goatcounterUrl = (cfg.goatcounterUrl || "").trim();
+  const cloudflareToken = (cfg.cloudflareToken || "").trim();
+
+  if (goatcounterUrl) {
+    const goatScript = document.createElement("script");
+    goatScript.async = true;
+    goatScript.src = "//gc.zgo.at/count.js";
+    goatScript.setAttribute("data-goatcounter", goatcounterUrl);
+    document.head.appendChild(goatScript);
+  }
+
+  if (cloudflareToken) {
+    const cfScript = document.createElement("script");
+    cfScript.defer = true;
+    cfScript.src = "https://static.cloudflareinsights.com/beacon.min.js";
+    cfScript.setAttribute("data-cf-beacon", JSON.stringify({ token: cloudflareToken }));
+    document.head.appendChild(cfScript);
+  }
+}
+
+initAnalytics();
