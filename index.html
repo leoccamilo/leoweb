@@ -1,0 +1,262 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leonardo Camilo | Telecom, Automation and AI Engineering</title>
+  <meta name="description" content="Telecom engineer turned automation builder delivering practical systems across network operations, data and AI-assisted software." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-b"></div>
+
+  <div class="top-controls container reveal">
+    <label for="language-switch" data-i18n="languageLabel">Language</label>
+    <select id="language-switch" aria-label="Language selector">
+      <option value="en">English</option>
+      <option value="pt">Português</option>
+    </select>
+  </div>
+
+  <header class="hero container reveal">
+    <div class="hero-layout">
+      <div>
+        <p class="eyebrow" data-i18n="heroTagline">Telecom Automation and AI Engineering</p>
+        <h1>Leonardo Camilo</h1>
+        <p class="hero-copy" data-i18n="heroCopy">
+          I started in radio network optimization and moved into automation and software delivery. Today I build tools that combine telecom operations, data pipelines, and AI-assisted development for production teams.
+        </p>
+        <div class="hero-chips">
+          <button type="button" class="chip-button" data-detail-topic="ran" data-i18n="chipRan" aria-expanded="false" aria-controls="detail-ran">RAN Optimization</button>
+          <button type="button" class="chip-button" data-detail-topic="python-sql" data-i18n="chipPythonSql" aria-expanded="false" aria-controls="detail-python-sql">Python + SQL</button>
+          <button type="button" class="chip-button" data-detail-topic="api" data-i18n="chipApi" aria-expanded="false" aria-controls="detail-api">FastAPI / Flask</button>
+          <button type="button" class="chip-button" data-detail-topic="powerbi" data-i18n="chipPowerBi" aria-expanded="false" aria-controls="detail-powerbi">Power BI</button>
+          <button type="button" class="chip-button" data-detail-topic="ai-delivery" data-i18n="chipAiDelivery" aria-expanded="false" aria-controls="detail-ai-delivery">AI-assisted delivery</button>
+          <button type="button" class="chip-button" data-detail-topic="personal-projects" data-i18n="chipPersonalProjects" aria-expanded="false" aria-controls="detail-personal-projects">Projetos Pessoais</button>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <img class="hero-photo" src="image2.png" alt="Leonardo Camilo profile photo" />
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel reveal" id="engineering-details">
+      <h2 data-i18n="detailsSectionTitle">Technical Details by Focus Area</h2>
+      <p class="details-hint" data-i18n="detailsHint">Click a topic above to see focused showcases from that area.</p>
+
+      <article class="detail-panel" id="detail-ran" data-detail-topic="ran" hidden>
+        <h3 data-i18n="detailRanTitle">RAN Optimization</h3>
+        <ul>
+          <li data-i18n="detailRanItem1">Neighbor Viewer Pro for 5G-5G and 4G-5G relation visualization in NSA/SA mobility scenarios.</li>
+          <li data-i18n="detailRanItem2">Relation review modes (existing, missing, to delete) to support neighbor planning decisions.</li>
+          <li data-i18n="detailRanItem3">Co-site and LTE-only map highlighting to identify mobility and coverage gaps.</li>
+          <li data-i18n="detailRanItem4">Map export routines for relation update files used in optimization handoffs.</li>
+        </ul>
+      </article>
+
+      <article class="detail-panel" id="detail-python-sql" data-detail-topic="python-sql" hidden>
+        <h3 data-i18n="detailPythonSqlTitle">Python + SQL</h3>
+        <ul>
+          <li data-i18n="detailPythonSqlItem1">COPS database modeling updates and SQL tuning for larger KPI retention windows.</li>
+          <li data-i18n="detailPythonSqlItem2">E2E audit automation comparing NE parameter values across network elements.</li>
+          <li data-i18n="detailPythonSqlItem3">Batch routines for KPI extraction, pre/post analysis, and scheduled processing.</li>
+          <li data-i18n="detailPythonSqlItem4">Core/Border and overshooting support scripts for telecom analysis datasets.</li>
+        </ul>
+      </article>
+
+      <article class="detail-panel" id="detail-api" data-detail-topic="api" hidden>
+        <h3 data-i18n="detailApiTitle">FastAPI / Flask</h3>
+        <ul>
+          <li data-i18n="detailApiItem1">MoB KML FastAPI backend with endpoints for upload, auto-mapping, filters, and exports.</li>
+          <li data-i18n="detailApiItem2">Neighbor Viewer API routes for relation queries, map layers, and export generation.</li>
+          <li data-i18n="detailApiItem3">Flask backend for Pescados with product, transaction, and sync APIs.</li>
+          <li data-i18n="detailApiItem4">CorretorOnline API flow for comparables search and valuation-oriented endpoints.</li>
+        </ul>
+      </article>
+
+      <article class="detail-panel" id="detail-powerbi" data-detail-topic="powerbi" hidden>
+        <h3 data-i18n="detailPowerBiTitle">Power BI</h3>
+        <ul>
+          <li data-i18n="detailPowerBiItem1">Live Monitoring dashboards for major events such as The Town and Lollapalooza.</li>
+          <li data-i18n="detailPowerBiItem2">Shift-focused views for anomaly tracking and cluster behavior follow-up.</li>
+          <li data-i18n="detailPowerBiItem3">Data sources prepared by Python/SQL routines before BI consumption.</li>
+          <li data-i18n="detailPowerBiItem4">Operational dashboard layout optimized for critical event windows.</li>
+        </ul>
+      </article>
+
+      <article class="detail-panel" id="detail-ai-delivery" data-detail-topic="ai-delivery" hidden>
+        <h3 data-i18n="detailAiTitle">AI-assisted delivery</h3>
+        <ul>
+          <li data-i18n="detailAiItem1">Cursor, Claude Code, and Codex used for code generation, refactoring, and review loops.</li>
+          <li data-i18n="detailAiItem2">MCP-based workflows to connect tools and reduce context switching.</li>
+          <li data-i18n="detailAiItem3">Prompt engineering practices documented and shared with telecom engineering teams.</li>
+          <li data-i18n="detailAiItem4">Strict no-mock validation rule for sensitive valuation workflows.</li>
+        </ul>
+      </article>
+
+      <article class="detail-panel" id="detail-personal-projects" data-detail-topic="personal-projects" hidden>
+        <h3 data-i18n="detailPersonalTitle">Personal Projects</h3>
+        <ul>
+          <li data-i18n="detailPersonalItem1">Pescados do Alexandre: local web app for inventory, transactions, and profitability follow-up.</li>
+          <li data-i18n="detailPersonalItem2">CorretorOnline: local app for real-estate comparables search and valuation support workflows.</li>
+          <li data-i18n="detailPersonalItem3">Both projects were built to solve real day-to-day needs with practical and simple user flows.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="panel reveal" id="engineering-focus-section">
+      <h2 data-i18n="engineeringFocusTitle">Engineering Focus</h2>
+      <ul>
+        <li data-i18n="focusDomain1">RAN optimization in live networks</li>
+        <li data-i18n="focusDomain2">Automation and data pipelines</li>
+        <li data-i18n="focusDomain3">AI-assisted engineering workflows</li>
+        <li data-i18n="focusDomain4">Digital products used in real operations</li>
+      </ul>
+    </section>
+
+    <section class="panel reveal" id="how-build-section">
+      <h2 data-i18n="howBuildTitle">How I Build</h2>
+      <p data-i18n="howBuildP1">
+        My first step is usually the same: find repetitive manual work and turn it into a reliable flow. AI helps me code and review faster, but the solution still needs clear rules and ownership.
+      </p>
+      <p data-i18n="howBuildP2">
+        If engineers do not use it during an actual shift, it is not finished.
+      </p>
+    </section>
+
+    <section class="panel reveal" id="trajectory-section">
+      <h2 data-i18n="trajectoryTitle">Career Trajectory</h2>
+      <div class="timeline">
+        <article>
+          <h3 data-i18n="role1Title">Automation Leader · Amdocs</h3>
+          <p class="meta" data-i18n="role1Date">Dec/2024 - Present</p>
+          <p data-i18n="role1Desc">
+            Leads automation initiatives across Brazil and works with teams in India and South America, linking technical choices to delivery planning and data platform updates.
+          </p>
+        </article>
+        <article>
+          <h3 data-i18n="role2Title">Telecom Automation Tools Expert · Amdocs</h3>
+          <p class="meta" data-i18n="role2Date">Apr/2015 - Dec/2024</p>
+          <p data-i18n="role2Desc">
+            Built and maintained tools for mobility automation, major-event monitoring, KPI pre/post analysis, SQL database restructuring, and end-to-end core audit routines.
+          </p>
+        </article>
+        <article>
+          <h3 data-i18n="role3Title">Network Optimization Specialist · Oi / TIM / Nextel</h3>
+          <p class="meta" data-i18n="role3Date">2004 - 2015</p>
+          <p data-i18n="role3Desc">
+            Worked on radio performance, parameter audits, and data consistency in production telecom environments.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel reveal" id="knowledge-sharing-section">
+      <h2 data-i18n="knowledgeTitle">Knowledge Sharing</h2>
+      <p data-i18n="knowledgeIntro">Technical sessions prepared for telecom engineering teams, focused on practical adoption.</p>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3 data-i18n="presentation1Title">Prompt Engineering for Telecom Teams</h3>
+          <p data-i18n="presentation1Desc">A practical session on applying prompt engineering in daily telecom engineering workflows.</p>
+          <a href="Knowledge%20Sharing/Engenharia_de_Prompt.pdf" target="_blank" rel="noopener noreferrer" data-i18n="openPresentation">Open presentation</a>
+        </article>
+        <article class="project-card">
+          <h3 data-i18n="presentation2Title">Digital Transformation in Engineering Routines</h3>
+          <p data-i18n="presentation2Desc">A knowledge-sharing presentation on using automation and data to modernize engineering routines.</p>
+          <a href="Knowledge%20Sharing/Transformacao_Digital.pdf" target="_blank" rel="noopener noreferrer" data-i18n="openPresentation">Open presentation</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel reveal" id="selected-projects-section">
+      <h2 data-i18n="casesTitle">Selected Projects</h2>
+      <div class="project-grid">
+        <article class="project-card" data-project-topics="personal-projects">
+          <h3 data-i18n="case1Title">Pescados do Alexandre (Personal Project)</h3>
+          <p><strong data-i18n="problemLabel">Problem:</strong> <span data-i18n="case1Problem">Small business stock and margin tracking was fragmented and manual.</span></p>
+          <p><strong data-i18n="solutionLabel">Solution:</strong> <span data-i18n="case1Solution">Built a practical inventory and transaction system with Python backend and web/PWA interface.</span></p>
+          <p><strong data-i18n="impactLabel">Impact:</strong> <span data-i18n="case1Impact">Consolidated daily operations into one workflow and made profitability review easier.</span></p>
+          <a href="https://github.com/leoccamilo/Pescados" target="_blank" rel="noopener noreferrer" data-i18n="openRepo">View repo</a>
+        </article>
+
+        <article class="project-card" data-project-topics="personal-projects">
+          <h3 data-i18n="case2Title">CorretorOnline (Personal Project)</h3>
+          <p><strong data-i18n="problemLabel">Problem:</strong> <span data-i18n="case2Problem">Property evaluation work for sale/rent scenarios was time-consuming and inconsistent.</span></p>
+          <p><strong data-i18n="solutionLabel">Solution:</strong> <span data-i18n="case2Solution">Implemented an application to structure analysis inputs and generate valuation support outputs.</span></p>
+          <p><strong data-i18n="impactLabel">Impact:</strong> <span data-i18n="case2Impact">Reduced manual effort and improved repeatability of the assessment process.</span></p>
+          <a href="https://github.com/leoccamilo/corretoronline" target="_blank" rel="noopener noreferrer" data-i18n="openRepo">View repo</a>
+        </article>
+
+        <article class="project-card" data-project-topics="ran">
+          <h3 data-i18n="case3Title">MoB_XML_Parser</h3>
+          <p><strong data-i18n="problemLabel">Problem:</strong> <span data-i18n="case3Problem">Raw Ericsson XML dumps were heavy to inspect directly in day-to-day optimization routines.</span></p>
+          <p><strong data-i18n="solutionLabel">Solution:</strong> <span data-i18n="case3Solution">Built a parser workflow to convert XML/ZIP inputs into structured TXT/CSV/XLSX outputs.</span></p>
+          <p><strong data-i18n="impactLabel">Impact:</strong> <span data-i18n="case3Impact">Reduced manual parsing effort and improved readiness of engineering data for analysis.</span></p>
+          <a href="https://github.com/leoccamilo/MoB_XML_Parser" target="_blank" rel="noopener noreferrer" data-i18n="openRepo">View repo</a>
+        </article>
+
+        <article class="project-card" data-project-topics="ran">
+          <h3 data-i18n="case4Title">MoB-ENM-Manager</h3>
+          <p><strong data-i18n="problemLabel">Problem:</strong> <span data-i18n="case4Problem">ENM operations needed faster execution of recurring commands and session workflows.</span></p>
+          <p><strong data-i18n="solutionLabel">Solution:</strong> <span data-i18n="case4Solution">Built a manager for SSH/SFTP sessions, quick commands, and script scheduling focused on telecom operations.</span></p>
+          <p><strong data-i18n="impactLabel">Impact:</strong> <span data-i18n="case4Impact">Improved operational consistency and reduced repetitive command handling during network routines.</span></p>
+          <a href="https://github.com/leoccamilo/MoB-ENM-Manager" target="_blank" rel="noopener noreferrer" data-i18n="openRepo">View repo</a>
+        </article>
+
+        <article class="project-card" data-project-topics="ran">
+          <h3 data-i18n="case5Title">MoB_KML</h3>
+          <p><strong data-i18n="problemLabel">Problem:</strong> <span data-i18n="case5Problem">RF teams needed a faster way to map network inventory and sector direction without manual tooling steps.</span></p>
+          <p><strong data-i18n="solutionLabel">Solution:</strong> <span data-i18n="case5Solution">Built a FastAPI-based tool for map visualization, filtering, and KML export from telecom datasets.</span></p>
+          <p><strong data-i18n="impactLabel">Impact:</strong> <span data-i18n="case5Impact">Improved speed of map preparation and made engineering visualization workflows more consistent.</span></p>
+          <a href="https://github.com/leoccamilo/MoB_KML" target="_blank" rel="noopener noreferrer" data-i18n="openRepo">View repo</a>
+        </article>
+
+        <article class="project-card" data-project-topics="ran">
+          <h3 data-i18n="case6Title">Neighbor Viewer</h3>
+          <p><strong data-i18n="problemLabel">Problem:</strong> <span data-i18n="case6Problem">Neighbor analysis for NSA/SA mobility is hard to validate with raw tables and fragmented files.</span></p>
+          <p><strong data-i18n="solutionLabel">Solution:</strong> <span data-i18n="case6Solution">Built an interactive viewer with map-based relation analysis and export routines for neighbor updates.</span></p>
+          <p><strong data-i18n="impactLabel">Impact:</strong> <span data-i18n="case6Impact">Made neighbor troubleshooting faster and improved consistency when preparing relation updates.</span></p>
+          <a href="https://github.com/leoccamilo/Neighbor_Viewer" target="_blank" rel="noopener noreferrer" data-i18n="openRepo">View repo</a>
+        </article>
+
+        <article class="project-card" data-project-topics="python-sql">
+          <h3 data-i18n="case7Title">SQL_scripting</h3>
+          <p><strong data-i18n="problemLabel">Problem:</strong> <span data-i18n="case7Problem">Routine telecom analysis needed reusable SQL queries for faster investigation of network behavior.</span></p>
+          <p><strong data-i18n="solutionLabel">Solution:</strong> <span data-i18n="case7Solution">Organized a repository of SQL scripts focused on 3G/4G/5G analysis and reporting support.</span></p>
+          <p><strong data-i18n="impactLabel">Impact:</strong> <span data-i18n="case7Impact">Improved repeatability of day-to-day analysis tasks and reduced ad-hoc query rework.</span></p>
+          <a href="https://github.com/leoccamilo/SQL_scripting" target="_blank" rel="noopener noreferrer" data-i18n="openRepo">View repo</a>
+        </article>
+
+        <article class="project-card" data-project-topics="python-sql">
+          <h3 data-i18n="case8Title">Python_scripting</h3>
+          <p><strong data-i18n="problemLabel">Problem:</strong> <span data-i18n="case8Problem">Common operational checks were repeated manually across engineering routines.</span></p>
+          <p><strong data-i18n="solutionLabel">Solution:</strong> <span data-i18n="case8Solution">Created a collection of practical Python scripts to automate recurring technical tasks.</span></p>
+          <p><strong data-i18n="impactLabel">Impact:</strong> <span data-i18n="case8Impact">Lowered repetitive manual work and made execution patterns more consistent.</span></p>
+          <a href="https://github.com/leoccamilo/Python_scripting" target="_blank" rel="noopener noreferrer" data-i18n="openRepo">View repo</a>
+        </article>
+
+        <article class="project-card" data-project-topics="python-sql">
+          <h3 data-i18n="case9Title">Python-Projects</h3>
+          <p><strong data-i18n="problemLabel">Problem:</strong> <span data-i18n="case9Problem">Early automation experiments were scattered and hard to evolve as a learning base.</span></p>
+          <p><strong data-i18n="solutionLabel">Solution:</strong> <span data-i18n="case9Solution">Consolidated Python practice projects and notebooks into a single repository for iterative improvement.</span></p>
+          <p><strong data-i18n="impactLabel">Impact:</strong> <span data-i18n="case9Impact">Created a stable sandbox to test approaches later reused in production-oriented tooling.</span></p>
+          <a href="https://github.com/leoccamilo/Python-Projects" target="_blank" rel="noopener noreferrer" data-i18n="openRepo">View repo</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container reveal">
+    <p><span data-i18n="githubLabel">GitHub profile:</span> <a href="https://github.com/leoccamilo" target="_blank" rel="noopener noreferrer">github.com/leoccamilo</a></p>
+    <p><span data-i18n="linkedinLabel">LinkedIn:</span> <a href="https://www.linkedin.com/in/leonardo-c-8163a120/" target="_blank" rel="noopener noreferrer">linkedin.com/in/leonardo-c-8163a120</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

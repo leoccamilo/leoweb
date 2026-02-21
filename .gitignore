@@ -1,0 +1,10 @@
+﻿.venv/
+__pycache__/
+*.pyc
+
+# Local notes and previews
+Intruções.txt
+preview-portfolio-pt.png
+
+# Private local resume source file
+Resume_*.docx
