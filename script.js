@@ -453,13 +453,28 @@ function updateProjectFilter(topic) {
 }
 
 function updateSectionVisibility(topic) {
-  const compactMode =
+  const hideAllSecondarySections =
     topic === "personal-projects" ||
     topic === "powerbi" ||
     topic === "python-sql" ||
     topic === "api";
+
+  const hideCoreNarrativeOnly = topic === "ai-delivery";
+
   sectionsHiddenInPersonalMode.forEach((section) => {
-    section.hidden = compactMode;
+    const isKnowledgeSection = section.id === "knowledge-sharing-section";
+
+    if (hideAllSecondarySections) {
+      section.hidden = true;
+      return;
+    }
+
+    if (hideCoreNarrativeOnly) {
+      section.hidden = !isKnowledgeSection;
+      return;
+    }
+
+    section.hidden = false;
   });
 }
 
