@@ -483,6 +483,7 @@ function updateSectionVisibility(topic) {
     topic === "personal-projects" ||
     topic === "python-sql" ||
     topic === "api" ||
+    topic === "ai-delivery" ||
     topic === "certifications";
   sectionsHiddenInPersonalMode.forEach((section) => {
     section.hidden = compactMode;
