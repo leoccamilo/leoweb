@@ -8,10 +8,11 @@ const translations = {
     heroCopy:
       "I started in radio network optimization and moved into automation and software delivery. Today I build tools that combine telecom operations, data pipelines, and AI-assisted development for production teams.",
     chipRan: "RAN Optimization",
-    chipPythonSql: "Python + SQL",
+    chipPythonSql: "Python + SQL + BI",
     chipApi: "FastAPI / Flask",
-    chipPowerBi: "Power BI",
+    chipPowerBi: "BI",
     chipAiDelivery: "AI-assisted delivery",
+    chipCertifications: "Certifications",
     chipPersonalProjects: "Personal Projects",
 
     detailsSectionTitle: "Technical Details by Focus Area",
@@ -27,7 +28,7 @@ const translations = {
     detailRanItem4:
       "Map export routines for relation update files used in optimization handoffs.",
 
-    detailPythonSqlTitle: "Python + SQL",
+    detailPythonSqlTitle: "Python + SQL + BI",
     detailPythonSqlItem1:
       "COPS database modeling updates and SQL tuning for larger KPI retention windows.",
     detailPythonSqlItem2:
@@ -35,7 +36,7 @@ const translations = {
     detailPythonSqlItem3:
       "Batch routines for KPI extraction, pre/post analysis, and scheduled processing.",
     detailPythonSqlItem4:
-      "Core/Border and overshooting support scripts for telecom analysis datasets.",
+      "BI dashboards for live monitoring and shift tracking fed by Python/SQL prepared datasets.",
 
     detailApiTitle: "FastAPI / Flask",
     detailApiItem1:
@@ -47,7 +48,7 @@ const translations = {
     detailApiItem4:
       "CorretorOnline API flow for comparables search and valuation-oriented endpoints.",
 
-    detailPowerBiTitle: "Power BI",
+    detailPowerBiTitle: "BI",
     detailPowerBiItem1:
       "Live Monitoring dashboards for major events such as The Town and Lollapalooza.",
     detailPowerBiItem2:
@@ -66,6 +67,14 @@ const translations = {
       "Prompt engineering practices documented and shared with telecom engineering teams.",
     detailAiItem4:
       "Strict no-mock validation rule for sensitive valuation workflows.",
+
+    detailCertTitle: "Certifications",
+    detailCertItem1:
+      "DataCamp tracks in AI, Python, SQL, Power BI, cloud, and containerization.",
+    detailCertItem2:
+      "Credentials selected to support hands-on delivery across telecom operations, automation, and data workflows.",
+    detailCertItem3:
+      "Each certificate includes a public credential link for direct verification.",
 
     detailPersonalTitle: "Personal Projects",
     detailPersonalItem1:
@@ -88,7 +97,7 @@ const translations = {
       "If engineers do not use it during an actual shift, it is not finished.",
 
     trajectoryTitle: "Career Trajectory",
-    role1Title: "Automation Lead · Amdocs",
+    role1Title: "Automation Leader · Amdocs",
     role1Date: "Dec/2024 - Present",
     role1Desc:
       "Leads automation initiatives across Brazil and works with teams in India and South America, linking technical choices to delivery planning and data platform updates.",
@@ -112,34 +121,7 @@ const translations = {
       "A knowledge-sharing presentation on using automation and data to modernize engineering routines.",
     openPresentation: "Open presentation",
     certificationsTitle: "Certifications",
-    certificationsIntro: "Selected certifications from LinkedIn with credential links.",
-    cert1Title: "AI for Software Engineering",
-    cert1Issuer: "DataCamp",
-    cert2Title: "SQL Server Developer Track",
-    cert2Issuer: "DataCamp",
-    cert12Title: "Containerization and Virtualization with Docker and Kubernetes",
-    cert12Issuer: "DataCamp",
-    cert13Title: "Understanding Cloud Computing",
-    cert13Issuer: "DataCamp",
-    cert3Title: "Machine Learning Fundamentals with Python Track",
-    cert3Issuer: "DataCamp",
-    cert4Title: "Data Science for Everyone Track",
-    cert4Issuer: "DataCamp",
-    cert5Title: "Introduction to Power BI",
-    cert5Issuer: "DataCamp",
-    cert6Title: "Data Analyst with Python Track",
-    cert6Issuer: "DataCamp",
-    cert7Title: "Python Programmer Track",
-    cert7Issuer: "DataCamp",
-    cert8Title: "Python Programming Track",
-    cert8Issuer: "DataCamp",
-    cert9Title: "Reporting Services - SQL Reports with your database",
-    cert9Issuer: "Udemy",
-    cert10Title: "Business Intelligence SQL - ETL Integration Services 2016",
-    cert10Issuer: "Udemy",
-    cert11Title: "Database Expert: SQL language and Administration",
-    cert11Issuer: "Udemy",
-    issuerLabel: "Issuer:",
+    institutionLabel: "Institution:",
     viewCredential: "View credential",
 
     casesTitle: "Selected Projects",
@@ -233,10 +215,11 @@ const translations = {
     heroCopy:
       "Comecei na otimização de rede rádio e migrei para automação e entrega de software. Hoje construo ferramentas que juntam operação de telecom, pipeline de dados e desenvolvimento assistido por IA para uso em produção.",
     chipRan: "Otimização RAN",
-    chipPythonSql: "Python + SQL",
+    chipPythonSql: "Python + SQL + BI",
     chipApi: "FastAPI / Flask",
-    chipPowerBi: "Power BI",
+    chipPowerBi: "BI",
     chipAiDelivery: "Entrega assistida por IA",
+    chipCertifications: "Certificações",
     chipPersonalProjects: "Projetos Pessoais",
 
     detailsSectionTitle: "Detalhes Técnicos por Área de Atuação",
@@ -252,7 +235,7 @@ const translations = {
     detailRanItem4:
       "Rotinas de exportação para arquivos de ajuste de relações usados no handoff de otimização.",
 
-    detailPythonSqlTitle: "Python + SQL",
+    detailPythonSqlTitle: "Python + SQL + BI",
     detailPythonSqlItem1:
       "Evolução de modelagem no COPS e ajuste SQL para ampliar janelas de retenção de KPI.",
     detailPythonSqlItem2:
@@ -260,7 +243,7 @@ const translations = {
     detailPythonSqlItem3:
       "Rotinas em lote para extração de KPI, análise pré/pós e processamento agendado.",
     detailPythonSqlItem4:
-      "Scripts de suporte a Core/Border e overshooting para bases de análise telecom.",
+      "Dashboards de BI para monitoramento ao vivo e acompanhamento de turno alimentados por bases preparadas em Python/SQL.",
 
     detailApiTitle: "FastAPI / Flask",
     detailApiItem1:
@@ -272,7 +255,7 @@ const translations = {
     detailApiItem4:
       "Fluxo de API do CorretorOnline para busca de comparáveis e endpoints de suporte à avaliação.",
 
-    detailPowerBiTitle: "Power BI",
+    detailPowerBiTitle: "BI",
     detailPowerBiItem1:
       "Dashboards de Live Monitoring para grandes eventos como The Town e Lollapalooza.",
     detailPowerBiItem2:
@@ -291,6 +274,14 @@ const translations = {
       "Práticas de engenharia de prompt documentadas e compartilhadas com equipes de engenharia de telecom.",
     detailAiItem4:
       "Regra rígida de não usar dados simulados em fluxos sensíveis de avaliação.",
+
+    detailCertTitle: "Certificações",
+    detailCertItem1:
+      "Trilhas da DataCamp em IA, Python, SQL, Power BI, cloud e containerização.",
+    detailCertItem2:
+      "Credenciais escolhidas para sustentar entregas práticas em operação telecom, automação e rotinas de dados.",
+    detailCertItem3:
+      "Cada certificado possui link público para verificação direta da credencial.",
 
     detailPersonalTitle: "Projetos Pessoais",
     detailPersonalItem1:
@@ -313,7 +304,7 @@ const translations = {
       "Se o time não usa durante um turno real, a entrega ainda não terminou.",
 
     trajectoryTitle: "Trajetória",
-    role1Title: "Automation Lead · Amdocs",
+    role1Title: "Automation Leader · Amdocs",
     role1Date: "Dez/2024 - Atual",
     role1Desc:
       "Lidera iniciativas de automação no Brasil e atua com times da Índia e da América do Sul, conectando escolha técnica com planejamento de entrega e evolução da plataforma de dados.",
@@ -336,35 +327,8 @@ const translations = {
     presentation2Desc:
       "Apresentação de compartilhamento técnico sobre uso de automação e dados para modernizar rotinas de engenharia.",
     openPresentation: "Abrir apresentação",
-    certificationsTitle: "Certifications",
-    certificationsIntro: "Certificações selecionadas do LinkedIn com link da credencial.",
-    cert1Title: "AI for Software Engineering",
-    cert1Issuer: "DataCamp",
-    cert2Title: "SQL Server Developer Track",
-    cert2Issuer: "DataCamp",
-    cert12Title: "Containerization and Virtualization with Docker and Kubernetes",
-    cert12Issuer: "DataCamp",
-    cert13Title: "Understanding Cloud Computing",
-    cert13Issuer: "DataCamp",
-    cert3Title: "Machine Learning Fundamentals with Python Track",
-    cert3Issuer: "DataCamp",
-    cert4Title: "Data Science for Everyone Track",
-    cert4Issuer: "DataCamp",
-    cert5Title: "Introduction to Power BI",
-    cert5Issuer: "DataCamp",
-    cert6Title: "Data Analyst with Python Track",
-    cert6Issuer: "DataCamp",
-    cert7Title: "Python Programmer Track",
-    cert7Issuer: "DataCamp",
-    cert8Title: "Python Programming Track",
-    cert8Issuer: "DataCamp",
-    cert9Title: "Reporting Services - SQL Reports with your database",
-    cert9Issuer: "Udemy",
-    cert10Title: "Business Intelligence SQL - ETL Integration Services 2016",
-    cert10Issuer: "Udemy",
-    cert11Title: "Database Expert: SQL language and Administration",
-    cert11Issuer: "Udemy",
-    issuerLabel: "Instituição:",
+    certificationsTitle: "Certificações",
+    institutionLabel: "Instituição:",
     viewCredential: "Ver credencial",
 
     casesTitle: "Projetos Selecionados",
@@ -497,6 +461,8 @@ const sectionsHiddenInPersonalMode = [
   document.getElementById("trajectory-section"),
   document.getElementById("knowledge-sharing-section")
 ].filter(Boolean);
+const certificationsSection = document.getElementById("certifications-section");
+const selectedProjectsSection = document.getElementById("selected-projects-section");
 let activeDetailTopic = null;
 
 function updateProjectFilter(topic) {
@@ -513,29 +479,22 @@ function updateProjectFilter(topic) {
 }
 
 function updateSectionVisibility(topic) {
-  const hideAllSecondarySections =
+  const compactMode =
     topic === "personal-projects" ||
-    topic === "powerbi" ||
     topic === "python-sql" ||
-    topic === "api";
-
-  const hideCoreNarrativeOnly = topic === "ai-delivery";
-
+    topic === "api" ||
+    topic === "certifications";
   sectionsHiddenInPersonalMode.forEach((section) => {
-    const isKnowledgeSection = section.id === "knowledge-sharing-section";
-
-    if (hideAllSecondarySections) {
-      section.hidden = true;
-      return;
-    }
-
-    if (hideCoreNarrativeOnly) {
-      section.hidden = !isKnowledgeSection;
-      return;
-    }
-
-    section.hidden = false;
+    section.hidden = compactMode;
   });
+
+  if (certificationsSection) {
+    certificationsSection.hidden = Boolean(topic && topic !== "certifications");
+  }
+
+  if (selectedProjectsSection) {
+    selectedProjectsSection.hidden = topic === "certifications";
+  }
 }
 
 function setActiveDetail(topic) {
@@ -570,27 +529,3 @@ applyLanguage(savedLanguage || browserLanguage);
 document.getElementById("language-switch")?.addEventListener("change", (event) => {
   applyLanguage(event.target.value);
 });
-
-function initAnalytics() {
-  const cfg = window.PORTFOLIO_ANALYTICS || {};
-  const goatcounterUrl = (cfg.goatcounterUrl || "").trim();
-  const cloudflareToken = (cfg.cloudflareToken || "").trim();
-
-  if (goatcounterUrl) {
-    const goatScript = document.createElement("script");
-    goatScript.async = true;
-    goatScript.src = "//gc.zgo.at/count.js";
-    goatScript.setAttribute("data-goatcounter", goatcounterUrl);
-    document.head.appendChild(goatScript);
-  }
-
-  if (cloudflareToken) {
-    const cfScript = document.createElement("script");
-    cfScript.defer = true;
-    cfScript.src = "https://static.cloudflareinsights.com/beacon.min.js";
-    cfScript.setAttribute("data-cf-beacon", JSON.stringify({ token: cloudflareToken }));
-    document.head.appendChild(cfScript);
-  }
-}
-
-initAnalytics();
