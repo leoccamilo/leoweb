@@ -23,6 +23,16 @@ Static portfolio positioned as an engineering authority hub for telecom, automat
 - Standalone `Certifications` section (credential links)
 - Optional analytics (GoatCounter / Cloudflare)
 
+## Topic Visibility Rules
+- `Certifications`:
+  - Shows `Technical Details by Focus Area` and `Certifications`
+  - Hides `Selected Projects`
+- `AI-assisted delivery`:
+  - Shows `Technical Details by Focus Area`, `Knowledge Sharing`, and `Selected Projects`
+  - Hides `Engineering Focus`, `How I Build`, `Career Trajectory`, and `Certifications`
+- `Python + SQL + BI`, `FastAPI / Flask`, `Personal Projects`:
+  - Run in compact mode (hide narrative sections) while keeping topic-relevant content
+
 ## Project Structure
 - `index.html`: layout, sections, topic buttons, cards, external links
 - `script.js`: translations, language switching, section visibility, project filter logic, analytics init

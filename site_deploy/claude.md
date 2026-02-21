@@ -37,7 +37,10 @@ Current active topics:
 ### Important UX decisions (current)
 - `BI` was merged into `Python + SQL + BI` (no separate BI topic button)
 - `Certifications` is a standalone section and also has its own top topic button
-- `AI-assisted delivery` should keep only relevant sections visible when active
+- `Certifications` topic hides `#selected-projects-section`
+- `AI-assisted delivery` keeps only relevant sections visible when active:
+  - show: technical details + knowledge sharing + selected projects (empty for now)
+  - hide: engineering focus + how I build + career trajectory + certifications
 - Avoid repeating generic narrative in topic-specific views
 
 ### Certifications
