@@ -88,7 +88,7 @@
       "If engineers do not use it during an actual shift, it is not finished.",
 
     trajectoryTitle: "Career Trajectory",
-    role1Title: "Automation Leader · Amdocs",
+    role1Title: "Automation Lead · Amdocs",
     role1Date: "Dec/2024 - Present",
     role1Desc:
       "Leads automation initiatives across Brazil and works with teams in India and South America, linking technical choices to delivery planning and data platform updates.",
@@ -283,7 +283,7 @@
       "Se o time não usa durante um turno real, a entrega ainda não terminou.",
 
     trajectoryTitle: "Trajetória",
-    role1Title: "Automation Leader · Amdocs",
+    role1Title: "Automation Lead · Amdocs",
     role1Date: "Dez/2024 - Atual",
     role1Desc:
       "Lidera iniciativas de automação no Brasil e atua com times da Índia e da América do Sul, conectando escolha técnica com planejamento de entrega e evolução da plataforma de dados.",
