@@ -1,4 +1,4 @@
-﻿const translations = {
+const translations = {
   en: {
     pageTitle: "Leonardo Camilo | Telecom, Automation and AI Engineering",
     pageDescription:
@@ -495,8 +495,7 @@ const sectionsHiddenInPersonalMode = [
   document.getElementById("engineering-focus-section"),
   document.getElementById("how-build-section"),
   document.getElementById("trajectory-section"),
-  document.getElementById("knowledge-sharing-section"),
-  document.getElementById("certifications-section")
+  document.getElementById("knowledge-sharing-section")
 ].filter(Boolean);
 let activeDetailTopic = null;
 
