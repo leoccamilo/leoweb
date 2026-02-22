@@ -18,13 +18,13 @@ const translations = {
       "Click a topic above to see focused showcases from that area.",
     detailRanTitle: "RAN Optimization",
     detailRanItem1:
-      "Neighbor Viewer for 5G-5G and 4G-5G relation visualization in NSA/SA mobility scenarios.",
+      "Parameter tuning and feature activation on Ericsson 3G/4G/5G networks, applied directly in live production configurations.",
     detailRanItem2:
-      "Relation review modes (existing, missing, to delete) to support neighbor planning decisions.",
+      "RF Shaping, neighbor planning, and coverage analysis across NSA/SA mobility scenarios.",
     detailRanItem3:
-      "Co-site and LTE-only map highlighting to identify mobility and coverage gaps.",
+      "Understanding network parameters at depth is what connects both sides of the work — it's easier to build automation that's actually useful when you know the domain.",
     detailRanItem4:
-      "Map export routines for relation update files used in optimization handoffs.",
+      "Tools like Baseline Audit and Live Monitoring came directly from gaps spotted during optimization routines, not from abstracted requirements.",
 
     detailAutomationTitle: "Automation",
     detailAutomationItem1:
@@ -195,13 +195,13 @@ const translations = {
       "Clique em um tópico acima para ver showcases focados daquela área.",
     detailRanTitle: "Otimização RAN",
     detailRanItem1:
-      "Neighbor Viewer para visualização de relações 5G-5G e 4G-5G em cenários NSA/SA.",
+      "Ajuste de parâmetros e ativação de features avançadas em redes Ericsson 3G/4G/5G, aplicados diretamente em configurações de produção ativas.",
     detailRanItem2:
-      "Modos de revisão (existente, faltante, remover) para apoiar decisão de planejamento de vizinhança.",
+      "RF Shaping, planejamento de vizinhança e análise de cobertura em cenários NSA/SA de mobilidade.",
     detailRanItem3:
-      "Destaque de co-site e LTE-only no mapa para identificar lacunas de cobertura e mobilidade.",
+      "Conhecer os parâmetros da rede a fundo é o que conecta os dois lados do trabalho — fica mais fácil construir automação que resolve o problema certo quando se domina o domínio.",
     detailRanItem4:
-      "Rotinas de exportação para arquivos de ajuste de relações usados no handoff de otimização.",
+      "Ferramentas como o Baseline Audit e o Live Monitoring surgiram de gaps identificados nas rotinas de otimização, não de requisitos abstraídos.",
 
     detailAutomationTitle: "Automação",
     detailAutomationItem1:
