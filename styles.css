@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --bg: #0c1117;
   --bg-soft: #111927;
   --panel: rgba(16, 27, 40, 0.76);
@@ -301,6 +301,21 @@ footer {
   50% {
     transform: translateY(-16px);
   }
+}
+
+.cert-group-title {
+  margin: 1.5rem 0 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.45rem;
+}
+
+.cert-group-title:first-of-type {
+  margin-top: 0.25rem;
 }
 
 @media (max-width: 920px) {
