@@ -60,12 +60,6 @@ const translations = {
     detailPersonalItem3:
       "Both projects were built to solve real day-to-day needs with practical and simple user flows.",
 
-    engineeringFocusTitle: "Engineering Focus",
-    focusDomain1: "RAN optimization in live networks",
-    focusDomain2: "Automation and data pipelines",
-    focusDomain3: "AI-assisted engineering workflows",
-    focusDomain4: "Tools and applications built for real operations",
-
     howBuildTitle: "How I Build",
     howBuildP1:
       "My first step is usually the same: find repetitive manual work and turn it into a reliable flow. AI helps me code and review faster, but the solution still needs clear rules and ownership.",
@@ -89,7 +83,6 @@ const translations = {
       "A knowledge-sharing presentation on using automation and data to modernize engineering routines.",
     openPresentation: "Open presentation",
     certificationsTitle: "Certifications",
-    institutionLabel: "Institution:",
     viewCredential: "View credential",
 
     casesTitle: "Selected Projects",
@@ -140,30 +133,6 @@ const translations = {
     case6Impact:
       "Made neighbor troubleshooting faster and improved consistency when preparing relation updates.",
 
-    case7Title: "SQL_scripting",
-    case7Problem:
-      "Routine telecom analysis needed reusable SQL queries for faster investigation of network behavior.",
-    case7Solution:
-      "Organized a repository of SQL scripts focused on 3G/4G/5G analysis and reporting support.",
-    case7Impact:
-      "Improved repeatability of day-to-day analysis tasks and reduced ad-hoc query rework.",
-
-    case8Title: "Python_scripting",
-    case8Problem:
-      "Common operational checks were repeated manually across engineering routines.",
-    case8Solution:
-      "Created a collection of practical Python scripts to automate recurring technical tasks.",
-    case8Impact:
-      "Lowered repetitive manual work and made execution patterns more consistent.",
-
-    case9Title: "Python-Projects",
-    case9Problem:
-      "Early automation experiments were scattered and hard to evolve as a learning base.",
-    case9Solution:
-      "Consolidated Python practice projects and notebooks into a single repository for iterative improvement.",
-    case9Impact:
-      "Created a stable sandbox to test approaches later reused in production-oriented tooling.",
-
     downloadsTitle: "Downloads",
     downloadsIntro:
       "These tools were built from real telecom engineering routines. Download them and see the kind of work behind this portfolio.",
@@ -172,14 +141,11 @@ const translations = {
     dl2Desc:
       "Batch converter for Ericsson XML and ZIP network configuration dumps. Outputs structured TXT, CSV, or XLSX with 21 automatic post-processing stages. Drag and drop support — built for day-to-day optimization routines.",
     downloadBtn: "Download",
-    downloadAvailable: "↓ Download available",
 
     problemLabel: "Problem:",
     solutionLabel: "Solution:",
     impactLabel: "Impact:",
     openRepo: "View repo",
-    openMob: "View MoB repo",
-    privateCase: "Case details on request",
     githubLabel: "GitHub profile:",
     linkedinLabel: "LinkedIn:",
     emailLabel: "Email:"
@@ -275,7 +241,6 @@ const translations = {
       "Apresentação de compartilhamento técnico sobre uso de automação e dados para modernizar rotinas de engenharia.",
     openPresentation: "Abrir apresentação",
     certificationsTitle: "Certificações",
-    institutionLabel: "Instituição:",
     viewCredential: "Ver credencial",
 
     casesTitle: "Projetos Selecionados",
@@ -362,8 +327,6 @@ const translations = {
     solutionLabel: "Solução:",
     impactLabel: "Impacto:",
     openRepo: "Ver repositório",
-    openMob: "Ver repositório MoB",
-    privateCase: "Detalhes do caso sob solicitação",
     githubLabel: "Perfil GitHub:",
     linkedinLabel: "LinkedIn:",
     emailLabel: "Email:"
