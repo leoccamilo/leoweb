@@ -60,6 +60,12 @@ const translations = {
     detailPersonalItem3:
       "Both projects were built to solve real day-to-day needs with practical and simple user flows.",
 
+    engineeringFocusTitle: "Engineering Focus",
+    focusDomain1: "RAN optimization in live networks",
+    focusDomain2: "Automation and data pipelines",
+    focusDomain3: "AI-assisted engineering workflows",
+    focusDomain4: "Digital products used in real operations",
+
     howBuildTitle: "How I Build",
     howBuildP1:
       "My first step is usually the same: find repetitive manual work and turn it into a reliable flow. AI helps me code and review faster, but the solution still needs clear rules and ownership.",
@@ -132,6 +138,30 @@ const translations = {
       "Built an interactive viewer with map-based relation analysis and export routines for neighbor updates.",
     case6Impact:
       "Made neighbor troubleshooting faster and improved consistency when preparing relation updates.",
+
+    case7Title: "SQL_scripting",
+    case7Problem:
+      "Routine telecom analysis needed reusable SQL queries for faster investigation of network behavior.",
+    case7Solution:
+      "Organized a repository of SQL scripts focused on 3G/4G/5G analysis and reporting support.",
+    case7Impact:
+      "Improved repeatability of day-to-day analysis tasks and reduced ad-hoc query rework.",
+
+    case8Title: "Python_scripting",
+    case8Problem:
+      "Common operational checks were repeated manually across engineering routines.",
+    case8Solution:
+      "Created a collection of practical Python scripts to automate recurring technical tasks.",
+    case8Impact:
+      "Lowered repetitive manual work and made execution patterns more consistent.",
+
+    case9Title: "Python-Projects",
+    case9Problem:
+      "Early automation experiments were scattered and hard to evolve as a learning base.",
+    case9Solution:
+      "Consolidated Python practice projects and notebooks into a single repository for iterative improvement.",
+    case9Impact:
+      "Created a stable sandbox to test approaches later reused in production-oriented tooling.",
 
     downloadsTitle: "Downloads",
     downloadsIntro:
