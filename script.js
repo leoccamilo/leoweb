@@ -60,6 +60,12 @@ const translations = {
     detailPersonalItem3:
       "Both projects were built to solve real day-to-day needs with practical and simple user flows.",
 
+    engineeringFocusTitle: "Engineering Focus",
+    focusDomain1: "RAN optimization in live networks",
+    focusDomain2: "Automation and data pipelines",
+    focusDomain3: "AI-assisted engineering workflows",
+    focusDomain4: "Tools and applications built for real operations",
+
     howBuildTitle: "How I Build",
     howBuildP1:
       "My first step is usually the same: find repetitive manual work and turn it into a reliable flow. AI helps me code and review faster, but the solution still needs clear rules and ownership.",
@@ -134,6 +140,30 @@ const translations = {
     case6Impact:
       "Made neighbor troubleshooting faster and improved consistency when preparing relation updates.",
 
+    case7Title: "SQL_scripting",
+    case7Problem:
+      "Routine telecom analysis needed reusable SQL queries for faster investigation of network behavior.",
+    case7Solution:
+      "Organized a repository of SQL scripts focused on 3G/4G/5G analysis and reporting support.",
+    case7Impact:
+      "Improved repeatability of day-to-day analysis tasks and reduced ad-hoc query rework.",
+
+    case8Title: "Python_scripting",
+    case8Problem:
+      "Common operational checks were repeated manually across engineering routines.",
+    case8Solution:
+      "Created a collection of practical Python scripts to automate recurring technical tasks.",
+    case8Impact:
+      "Lowered repetitive manual work and made execution patterns more consistent.",
+
+    case9Title: "Python-Projects",
+    case9Problem:
+      "Early automation experiments were scattered and hard to evolve as a learning base.",
+    case9Solution:
+      "Consolidated Python practice projects and notebooks into a single repository for iterative improvement.",
+    case9Impact:
+      "Created a stable sandbox to test approaches later reused in production-oriented tooling.",
+
     downloadsTitle: "Downloads",
     downloadsIntro:
       "These tools were built from real telecom engineering routines. Download them and see the kind of work behind this portfolio.",
@@ -151,7 +181,8 @@ const translations = {
     openMob: "View MoB repo",
     privateCase: "Case details on request",
     githubLabel: "GitHub profile:",
-    linkedinLabel: "LinkedIn:"
+    linkedinLabel: "LinkedIn:",
+    emailLabel: "Email:"
   },
 
   pt: {
@@ -334,7 +365,8 @@ const translations = {
     openMob: "Ver repositório MoB",
     privateCase: "Detalhes do caso sob solicitação",
     githubLabel: "Perfil GitHub:",
-    linkedinLabel: "LinkedIn:"
+    linkedinLabel: "LinkedIn:",
+    emailLabel: "Email:"
   }
 };
 
@@ -447,12 +479,32 @@ function setActiveDetail(topic) {
   updateSectionVisibility(activeDetailTopic);
 }
 
+function ensureFooterEmail() {
+  const footer = document.querySelector("footer.container");
+  if (!footer || footer.querySelector('a[href^="mailto:"]')) {
+    return;
+  }
+
+  const paragraph = document.createElement("p");
+  const label = document.createElement("span");
+  label.setAttribute("data-i18n", "emailLabel");
+  label.textContent = "Email:";
+
+  const link = document.createElement("a");
+  link.href = "mailto:leoccamilo@gmail.com";
+  link.textContent = "leoccamilo@gmail.com";
+
+  paragraph.append(label, " ", link);
+  footer.appendChild(paragraph);
+}
+
 chipButtons.forEach((button) => {
   button.addEventListener("click", () => {
     setActiveDetail(button.dataset.detailTopic);
   });
 });
 
+ensureFooterEmail();
 const browserLanguage = navigator.language && navigator.language.toLowerCase().startsWith("pt") ? "pt" : "en";
 const savedLanguage = localStorage.getItem("preferred-language");
 applyLanguage(savedLanguage || browserLanguage);
