@@ -413,7 +413,7 @@ function updateSectionVisibility(topic) {
   }
 
   if (selectedProjectsSection) {
-    selectedProjectsSection.hidden = topic === "certifications";
+    selectedProjectsSection.hidden = topic === "certifications" || topic === "ran";
   }
 
   if (downloadsSection) {
