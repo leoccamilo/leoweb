@@ -97,18 +97,10 @@ const translations = {
       "If engineers do not use it during an actual shift, it is not finished.",
 
     trajectoryTitle: "Career Trajectory",
-    role1Title: "Automation Leader · Amdocs",
-    role1Date: "Dec/2024 - Present",
-    role1Desc:
-      "Leads automation initiatives across Brazil and works with teams in India and South America, linking technical choices to delivery planning and data platform updates.",
-    role2Title: "Telecom Automation Tools Expert · Amdocs",
-    role2Date: "Apr/2015 - Dec/2024",
-    role2Desc:
-      "Built and maintained tools for mobility automation, major-event monitoring, KPI pre/post analysis, SQL database restructuring, and end-to-end core audit routines.",
-    role3Title: "Network Optimization Specialist · Oi / TIM / Nextel",
-    role3Date: "2004 - 2015",
-    role3Desc:
-      "Worked on radio performance, parameter audits, and data consistency in production telecom environments.",
+    trajectoryP1:
+      "My career started in radio network optimization. Most of that work was performance analysis, parameter audits, making sense of what was happening in live networks from raw data. It wasn't flashy work, but it was where I learned how to read patterns in messy, real-world environments — and that skill ended up shaping everything that came after.",
+    trajectoryP2:
+      "Over time I started noticing how much of the daily workflow was the same set of manual steps repeated over and over. That bothered me more than it should have. So I started writing scripts, then building tools, then putting together more complete automation flows — each one replacing something the team didn't want to keep doing by hand. That pull toward automation eventually led me into broader coordination work, bridging engineering teams and delivery planning across different contexts. The instinct behind all of it hasn't changed: find what's slowing people down and remove it.",
 
     knowledgeTitle: "Knowledge Sharing",
     knowledgeIntro:
@@ -304,18 +296,10 @@ const translations = {
       "Se o time não usa durante um turno real, a entrega ainda não terminou.",
 
     trajectoryTitle: "Trajetória",
-    role1Title: "Automation Leader · Amdocs",
-    role1Date: "Dez/2024 - Atual",
-    role1Desc:
-      "Lidera iniciativas de automação no Brasil e atua com times da Índia e da América do Sul, conectando escolha técnica com planejamento de entrega e evolução da plataforma de dados.",
-    role2Title: "Telecom Automation Tools Expert · Amdocs",
-    role2Date: "Abr/2015 - Dez/2024",
-    role2Desc:
-      "Construiu e manteve ferramentas para automação de mobilidade, monitoramento de grandes eventos, análise pré/pós KPI, reestruturação de banco SQL e rotinas de auditoria E2E de core.",
-    role3Title: "Especialista em Otimização de Rede · Oi / TIM / Nextel",
-    role3Date: "2004 - 2015",
-    role3Desc:
-      "Atuou em performance de rádio, auditoria de parâmetros e consistência de dados em ambiente de telecom de produção.",
+    trajectoryP1:
+      "Comecei na otimização de redes de rádio. A maior parte do trabalho era análise de performance, auditoria de parâmetros, tentar entender o que estava acontecendo numa rede ativa a partir dos dados brutos. Não era nada glamouroso, mas foi onde aprendi a enxergar padrões em ambientes reais e complexos — e essa habilidade acabou moldando tudo que veio depois.",
+    trajectoryP2:
+      "Com o tempo fui percebendo o quanto do fluxo diário era a mesma sequência de etapas manuais repetida sem parar. Isso me incomodava mais do que deveria. Então comecei a escrever scripts, depois ferramentas, depois fluxos de automação mais completos — cada um substituindo algo que o time não queria mais fazer na mão. Esse caminho em direção à automação acabou me levando também a trabalhar com coordenação mais ampla, conectando equipes de engenharia e planejamento de entrega em diferentes contextos. O instinto por trás de tudo não mudou: encontrar o que está travando as pessoas e tirar do caminho.",
 
     knowledgeTitle: "Knowledge Sharing",
     knowledgeIntro:
