@@ -318,6 +318,14 @@ footer {
   margin-top: 0.25rem;
 }
 
+.dl-meta {
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-family: "IBM Plex Mono", monospace;
+  margin: 0.25rem 0 0.75rem;
+  letter-spacing: 0.02em;
+}
+
 @media (max-width: 920px) {
   .grid-two,
   .project-grid,
