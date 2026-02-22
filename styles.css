@@ -120,7 +120,7 @@ h1 {
 
 .hero-copy {
   max-width: 70ch;
-  color: var(--muted);
+  color: #c4d6ec;
   margin-top: 1rem;
   font-size: clamp(1rem, 1.7vw, 1.18rem);
 }
@@ -178,7 +178,7 @@ h1 {
 
 main {
   display: grid;
-  gap: 1rem;
+  gap: 1.25rem;
   padding-bottom: 2rem;
 }
 
@@ -300,6 +300,18 @@ footer {
   }
   50% {
     transform: translateY(-16px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal.show {
+    transition: none;
+    transform: none;
+  }
+
+  .bg-orb {
+    animation: none;
   }
 }
 
