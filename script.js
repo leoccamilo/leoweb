@@ -147,8 +147,7 @@ const translations = {
     impactLabel: "Impact:",
     openRepo: "View repo",
     githubLabel: "GitHub profile:",
-    linkedinLabel: "LinkedIn:",
-    emailLabel: "Email:"
+    linkedinLabel: "LinkedIn:"
   },
 
   pt: {
@@ -328,8 +327,7 @@ const translations = {
     impactLabel: "Impacto:",
     openRepo: "Ver repositório",
     githubLabel: "Perfil GitHub:",
-    linkedinLabel: "LinkedIn:",
-    emailLabel: "Email:"
+    linkedinLabel: "LinkedIn:"
   }
 };
 
@@ -442,32 +440,12 @@ function setActiveDetail(topic) {
   updateSectionVisibility(activeDetailTopic);
 }
 
-function ensureFooterEmail() {
-  const footer = document.querySelector("footer.container");
-  if (!footer || footer.querySelector('a[href^="mailto:"]')) {
-    return;
-  }
-
-  const paragraph = document.createElement("p");
-  const label = document.createElement("span");
-  label.setAttribute("data-i18n", "emailLabel");
-  label.textContent = "Email:";
-
-  const link = document.createElement("a");
-  link.href = "mailto:leoccamilo@gmail.com";
-  link.textContent = "leoccamilo@gmail.com";
-
-  paragraph.append(label, " ", link);
-  footer.appendChild(paragraph);
-}
-
 chipButtons.forEach((button) => {
   button.addEventListener("click", () => {
     setActiveDetail(button.dataset.detailTopic);
   });
 });
 
-ensureFooterEmail();
 const browserLanguage = navigator.language && navigator.language.toLowerCase().startsWith("pt") ? "pt" : "en";
 const savedLanguage = localStorage.getItem("preferred-language");
 applyLanguage(savedLanguage || browserLanguage);
