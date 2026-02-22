@@ -18,13 +18,13 @@ const translations = {
       "Click a topic above to see focused showcases from that area.",
     detailRanTitle: "RAN Optimization",
     detailRanItem1:
-      "Parameter tuning and feature activation on Ericsson 3G/4G/5G networks, applied directly in live production configurations.",
+      "Parameter tuning and activation of coverage, capacity and mobility features on Ericsson 3G/4G/5G networks, applied directly on live networks.",
     detailRanItem2:
-      "RF Shaping, neighbor planning, and coverage analysis across NSA/SA mobility scenarios.",
+      "RF parameter optimization, neighbor relation planning, and coverage analysis across NSA and SA 5G deployments.",
     detailRanItem3:
-      "Understanding network parameters at depth is what connects both sides of the work — it's easier to build automation that's actually useful when you know the domain.",
+      "Understanding network parameters at depth is what connects both sides of the work — it's easier to build automation that's actually useful when you know the technology.",
     detailRanItem4:
-      "Tools like Baseline Audit and Live Monitoring came directly from gaps spotted during optimization routines, not from abstracted requirements.",
+      "Tools like Live Monitoring and Neighbor Viewer were born from real gaps in optimization routines — Live Monitoring eliminated manual report generation during events, freeing the engineer to focus solely on network analysis; Neighbor Viewer brought geographic visualization of neighbor relations, increasing decision accuracy in mobility troubleshooting.",
 
     detailAutomationTitle: "Automation",
     detailAutomationItem1:
@@ -195,13 +195,13 @@ const translations = {
       "Clique em um tópico acima para ver showcases focados daquela área.",
     detailRanTitle: "Otimização RAN",
     detailRanItem1:
-      "Ajuste de parâmetros e ativação de features avançadas em redes Ericsson 3G/4G/5G, aplicados diretamente em configurações de produção ativas.",
+      "Ajuste de parâmetros e ativação de features de cobertura, capacidade e mobilidade em redes Ericsson 3G/4G/5G, aplicados diretamente em rede ativa.",
     detailRanItem2:
-      "RF Shaping, planejamento de vizinhança e análise de cobertura em cenários NSA/SA de mobilidade.",
+      "Otimização de parâmetros de RF, planejamento de relações de vizinhança e análise de cobertura em deployments NSA e SA 5G.",
     detailRanItem3:
-      "Conhecer os parâmetros da rede a fundo é o que conecta os dois lados do trabalho — fica mais fácil construir automação que resolve o problema certo quando se domina o domínio.",
+      "Conhecer os parâmetros da rede a fundo é o que conecta os dois lados do trabalho — fica mais fácil construir automação que resolve o problema certo quando se domina a tecnologia.",
     detailRanItem4:
-      "Ferramentas como o Baseline Audit e o Live Monitoring surgiram de gaps identificados nas rotinas de otimização, não de requisitos abstraídos.",
+      "Ferramentas como o Live Monitoring e o Neighbor Viewer nasceram de gaps reais das rotinas de otimização — o Live Monitoring eliminou a geração manual de relatórios durante eventos, liberando o engenheiro para focar apenas na análise da rede; o Neighbor Viewer trouxe visualização geográfica das relações de vizinhança, aumentando a assertividade no troubleshooting de mobilidade.",
 
     detailAutomationTitle: "Automação",
     detailAutomationItem1:
