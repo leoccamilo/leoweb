@@ -48,7 +48,7 @@ const translations = {
 
     detailCertTitle: "Certifications",
     detailCertItem1:
-      "DataCamp tracks in AI, Python, SQL, Power BI, cloud, and containerization.",
+      "Certifications from DataCamp, Udemy, and Alura covering Python, SQL, BI, cloud, machine learning, and AI-assisted development.",
     detailCertItem2:
       "Credentials selected to support hands-on delivery across telecom operations, automation, and data workflows.",
     detailCertItem3:
@@ -225,7 +225,7 @@ const translations = {
 
     detailCertTitle: "Certificações",
     detailCertItem1:
-      "Trilhas da DataCamp em IA, Python, SQL, Power BI, cloud e containerização.",
+      "Certificações pela DataCamp, Udemy e Alura em Python, SQL, BI, cloud, machine learning e desenvolvimento assistido por IA.",
     detailCertItem2:
       "Credenciais escolhidas para sustentar entregas práticas em operação telecom, automação e rotinas de dados.",
     detailCertItem3:
