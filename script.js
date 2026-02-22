@@ -22,7 +22,7 @@ const translations = {
     detailRanItem2:
       "Understanding network parameters at depth is what connects both sides of the work — it's easier to build automation that's actually useful when you know the technology.",
     detailRanItem3:
-      "Tools like Live Monitoring and Neighbor Viewer were born from real gaps in optimization routines — Live Monitoring eliminated manual report generation during events, freeing the engineer to focus solely on network analysis; Neighbor Viewer brought geographic visualization of neighbor relations, increasing decision accuracy in mobility troubleshooting.",
+      "MoB is an authorial initiative developed by me outside commercial working hours. It was created to reduce NSA/SA mobility troubleshooting time: tasks that used to take hours for a single offender (such as termpoints and relations creation) are now executed in minutes, with full-network analysis and automation for neighbor and termpoint creation. Neighbor Viewer is part of the MoB ecosystem.",
 
     detailAutomationTitle: "Automation",
     detailAutomationItem1:
@@ -173,7 +173,7 @@ const translations = {
     detailRanItem2:
       "Conhecer os parâmetros da rede a fundo é o que conecta os dois lados do trabalho — fica mais fácil construir automação que resolve o problema certo quando se domina a tecnologia.",
     detailRanItem3:
-      "Ferramentas como o Live Monitoring e o Neighbor Viewer nasceram de gaps reais das rotinas de otimização — o Live Monitoring eliminou a geração manual de relatórios durante eventos, liberando o engenheiro para focar apenas na análise da rede; o Neighbor Viewer trouxe visualização geográfica das relações de vizinhança, aumentando a assertividade no troubleshooting de mobilidade.",
+      "MoB é uma iniciativa autoral desenvolvida por mim fora do horário comercial. Ele nasceu da necessidade de reduzir o tempo de troubleshooting de mobilidade NSA/SA: tarefas que levavam horas para um único ofensor (como criação de termpoints e relations) passaram a ser executadas em minutos, com análise da rede inteira e automação de criação de vizinhas e termpoints. O Neighbor Viewer faz parte do ecossistema do MoB.",
 
     detailAutomationTitle: "Automação",
     detailAutomationItem1:
