@@ -18,7 +18,7 @@ const translations = {
       "Click a topic above to see focused showcases from that area.",
     detailRanTitle: "RAN Optimization",
     detailRanItem1:
-      "RF parameter optimization, feature activation, and neighbor planning on Ericsson 3G/4G/5G networks, applied directly on live networks.",
+      "RF parameter optimization, feature activation, and offender troubleshooting on Ericsson 3G/4G/5G networks, applied directly on live networks.",
     detailRanItem2:
       "Understanding network parameters at depth is what connects both sides of the work — it's easier to build automation that's actually useful when you know the technology.",
     detailRanItem3:
@@ -59,12 +59,6 @@ const translations = {
       "CorretorOnline: local app for real-estate comparables search and valuation support workflows.",
     detailPersonalItem3:
       "Both projects were built to solve real day-to-day needs with practical and simple user flows.",
-
-    engineeringFocusTitle: "Engineering Focus",
-    focusDomain1: "RAN optimization in live networks",
-    focusDomain2: "Automation and data pipelines",
-    focusDomain3: "AI-assisted engineering workflows",
-    focusDomain4: "Tools and applications built for real operations",
 
     howBuildTitle: "How I Build",
     howBuildP1:
@@ -140,30 +134,6 @@ const translations = {
     case6Impact:
       "Made neighbor troubleshooting faster and improved consistency when preparing relation updates.",
 
-    case7Title: "SQL_scripting",
-    case7Problem:
-      "Routine telecom analysis needed reusable SQL queries for faster investigation of network behavior.",
-    case7Solution:
-      "Organized a repository of SQL scripts focused on 3G/4G/5G analysis and reporting support.",
-    case7Impact:
-      "Improved repeatability of day-to-day analysis tasks and reduced ad-hoc query rework.",
-
-    case8Title: "Python_scripting",
-    case8Problem:
-      "Common operational checks were repeated manually across engineering routines.",
-    case8Solution:
-      "Created a collection of practical Python scripts to automate recurring technical tasks.",
-    case8Impact:
-      "Lowered repetitive manual work and made execution patterns more consistent.",
-
-    case9Title: "Python-Projects",
-    case9Problem:
-      "Early automation experiments were scattered and hard to evolve as a learning base.",
-    case9Solution:
-      "Consolidated Python practice projects and notebooks into a single repository for iterative improvement.",
-    case9Impact:
-      "Created a stable sandbox to test approaches later reused in production-oriented tooling.",
-
     downloadsTitle: "Downloads",
     downloadsIntro:
       "These tools were built from real telecom engineering routines. Download them and see the kind of work behind this portfolio.",
@@ -172,6 +142,7 @@ const translations = {
     dl2Desc:
       "Batch converter for Ericsson XML and ZIP network configuration dumps. Outputs structured TXT, CSV, or XLSX with 21 automatic post-processing stages. Drag and drop support — built for day-to-day optimization routines.",
     downloadBtn: "Download",
+    downloadAvailable: "↓ Download available",
 
     problemLabel: "Problem:",
     solutionLabel: "Solution:",
@@ -202,7 +173,7 @@ const translations = {
       "Clique em um tópico acima para ver showcases focados daquela área.",
     detailRanTitle: "Otimização RAN",
     detailRanItem1:
-      "Otimização de parâmetros de RF, ativação de features e planejamento de vizinhança em redes Ericsson 3G/4G/5G, aplicados diretamente em rede ativa.",
+      "Otimização de parâmetros de RF, ativação de features e troubleshooting de ofensores em redes Ericsson 3G/4G/5G, aplicados diretamente em rede ativa.",
     detailRanItem2:
       "Conhecer os parâmetros da rede a fundo é o que conecta os dois lados do trabalho — fica mais fácil construir automação que resolve o problema certo quando se domina a tecnologia.",
     detailRanItem3:
@@ -417,6 +388,7 @@ const sectionsHiddenInPersonalMode = [
 ].filter(Boolean);
 const certificationsSection = document.getElementById("certifications-section");
 const selectedProjectsSection = document.getElementById("selected-projects-section");
+const downloadsSection = document.getElementById("downloads-section");
 let activeDetailTopic = null;
 
 function updateProjectFilter(topic) {
@@ -426,7 +398,8 @@ function updateProjectFilter(topic) {
     const topics = (card.dataset.projectTopics || "")
       .split(",")
       .map((item) => item.trim())
-      .filter(Boolean);
+      .filter(Boolean)
+      .map((item) => (item === "ran" || item === "personal-projects" ? "automation" : item));
 
     card.hidden = currentTopic ? !topics.includes(currentTopic) : false;
   });
@@ -448,6 +421,10 @@ function updateSectionVisibility(topic) {
 
   if (selectedProjectsSection) {
     selectedProjectsSection.hidden = topic === "certifications";
+  }
+
+  if (downloadsSection) {
+    downloadsSection.hidden = topic !== "personal-projects";
   }
 }
 
