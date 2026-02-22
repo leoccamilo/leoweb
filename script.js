@@ -28,7 +28,7 @@ const translations = {
     detailAutomationItem1:
       "Python and SQL workflows for KPI extraction, parameter audits, and batch analysis.",
     detailAutomationItem2:
-      "BI dashboards for live monitoring and shift tracking, fed by prepared automation pipelines.",
+      "BI dashboards for online monitoring of large-scale events (such as Lollapalooza and The Town), fed by prepared automation pipelines.",
     detailAutomationItem3:
       "FastAPI and Flask backends serving telecom tools, inventory apps, and valuation workflows.",
     detailAutomationItem4:
@@ -209,7 +209,7 @@ const translations = {
     detailAutomationItem1:
       "Fluxos Python e SQL para extração de KPI, auditoria de parâmetros e análise em lote.",
     detailAutomationItem2:
-      "Dashboards de BI para monitoramento ao vivo e acompanhamento de turno, alimentados por pipelines de automação.",
+      "Dashboards de BI para monitoramento online de grandes eventos (como Lollapalooza e The Town), alimentados por pipelines de automação.",
     detailAutomationItem3:
       "Backends FastAPI e Flask para ferramentas de telecom, apps de estoque e fluxos de avaliação.",
     detailAutomationItem4:
