@@ -391,10 +391,21 @@ function updateProjectFilter(topic) {
     const topics = (card.dataset.projectTopics || "")
       .split(",")
       .map((item) => item.trim())
-      .filter(Boolean)
-      .map((item) => (item === "ran" ? "automation" : item));
+      .filter(Boolean);
 
-    card.hidden = currentTopic ? !topics.includes(currentTopic) : false;
+    if (!currentTopic) {
+      card.hidden = false;
+      return;
+    }
+
+    if (currentTopic === "automation") {
+      const isAutomationCard = topics.includes("automation") || topics.includes("ran");
+      const isPersonalCard = topics.includes("personal-projects");
+      card.hidden = !isAutomationCard || isPersonalCard;
+      return;
+    }
+
+    card.hidden = !topics.includes(currentTopic);
   });
 }
 
