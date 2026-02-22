@@ -164,6 +164,15 @@ const translations = {
     case9Impact:
       "Created a stable sandbox to test approaches later reused in production-oriented tooling.",
 
+    downloadsTitle: "Downloads",
+    downloadsIntro:
+      "These tools were built from real telecom engineering routines. Download them and see the kind of work behind this portfolio.",
+    dl1Desc:
+      "Map visualization, filtering, and KML export from telecom inventory datasets. Runs as a standalone desktop app for RF teams.",
+    dl2Desc:
+      "Converts raw Ericsson XML and ZIP dumps into structured TXT, CSV, and XLSX outputs. Built for day-to-day optimization workflows.",
+    downloadBtn: "Download",
+
     problemLabel: "Problem:",
     solutionLabel: "Solution:",
     impactLabel: "Impact:",
@@ -337,6 +346,15 @@ const translations = {
       "Consolidação de projetos e notebooks em Python em um único repositório para melhoria iterativa.",
     case9Impact:
       "Criou um sandbox estável para testar abordagens depois reaproveitadas em ferramentas orientadas à produção.",
+
+    downloadsTitle: "Downloads",
+    downloadsIntro:
+      "Essas ferramentas foram construídas a partir de rotinas reais de engenharia em telecom. Baixe e veja o tipo de trabalho que está por trás desse portfólio.",
+    dl1Desc:
+      "Visualização em mapa, filtros e exportação KML a partir de inventário de telecom. Roda como app desktop standalone para times de RF.",
+    dl2Desc:
+      "Converte dumps XML e ZIP Ericsson em saídas estruturadas TXT, CSV e XLSX. Criado para rotinas do dia a dia de otimização.",
+    downloadBtn: "Download",
 
     problemLabel: "Problema:",
     solutionLabel: "Solução:",
