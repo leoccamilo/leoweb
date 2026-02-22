@@ -455,7 +455,7 @@ function injectCertificationLogos() {
   const logoByTitle = {
     datacamp: "https://cdn.simpleicons.org/datacamp/03EF62",
     udemy: "https://cdn.simpleicons.org/udemy/A435F0",
-    alura: "https://cdn.simpleicons.org/alura/051933"
+    alura: "https://cdn.simpleicons.org/alura/00C2FF"
   };
 
   document.querySelectorAll(".cert-group-title").forEach((title) => {
@@ -479,7 +479,7 @@ function injectCertificationLogos() {
     img.alt = `${title.textContent.trim()} logo`;
     img.width = 16;
     img.height = 16;
-    img.loading = "lazy";
+    img.loading = "eager";
     img.decoding = "async";
 
     title.prepend(img);
