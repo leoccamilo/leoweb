@@ -168,9 +168,9 @@ const translations = {
     downloadsIntro:
       "These tools were built from real telecom engineering routines. Download them and see the kind of work behind this portfolio.",
     dl1Desc:
-      "Map visualization, filtering, and KML export from telecom inventory datasets. Runs as a standalone desktop app for RF teams.",
+      "Turns telecom inventory files into an interactive sector map with directional petals, band coloring, regional filters, and KML export. Supports LTE and 5G NR from 700MHz to 3700MHz. No Python required — extract and run.",
     dl2Desc:
-      "Converts raw Ericsson XML and ZIP dumps into structured TXT, CSV, and XLSX outputs. Built for day-to-day optimization workflows.",
+      "Batch converter for Ericsson XML and ZIP network configuration dumps. Outputs structured TXT, CSV, or XLSX with 21 automatic post-processing stages. Drag and drop support — built for day-to-day optimization routines.",
     downloadBtn: "Download",
 
     problemLabel: "Problem:",
@@ -351,9 +351,9 @@ const translations = {
     downloadsIntro:
       "Essas ferramentas foram construídas a partir de rotinas reais de engenharia em telecom. Baixe e veja o tipo de trabalho que está por trás desse portfólio.",
     dl1Desc:
-      "Visualização em mapa, filtros e exportação KML a partir de inventário de telecom. Roda como app desktop standalone para times de RF.",
+      "Transforma arquivos de inventário de telecom em mapa interativo com pétalas direcionais por setor, cores por banda, filtros regionais e exportação KML. Suporte a LTE e 5G NR de 700MHz a 3700MHz. Sem Python — extraia e execute.",
     dl2Desc:
-      "Converte dumps XML e ZIP Ericsson em saídas estruturadas TXT, CSV e XLSX. Criado para rotinas do dia a dia de otimização.",
+      "Conversor em lote de dumps XML e ZIP de configuração de rede Ericsson. Gera saídas em TXT, CSV ou XLSX com 21 etapas automáticas de pós-processamento. Suporte a drag & drop — criado para rotinas de otimização.",
     downloadBtn: "Download",
 
     problemLabel: "Problema:",
