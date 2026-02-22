@@ -457,6 +457,9 @@ function injectCertificationLogos() {
     udemy: "https://cdn.simpleicons.org/udemy/A435F0",
     alura: "https://www.alura.com.br/assets/img/home/alura-logo.svg"
   };
+  const sizeByTitle = {
+    alura: 21
+  };
 
   document.querySelectorAll(".cert-group-title").forEach((title) => {
     if (title.querySelector(".cert-logo")) {
@@ -477,8 +480,9 @@ function injectCertificationLogos() {
     img.className = "cert-logo";
     img.src = logo;
     img.alt = `${title.textContent.trim()} logo`;
-    img.width = 16;
-    img.height = 16;
+    const iconSize = sizeByTitle[normalized] || 16;
+    img.width = iconSize;
+    img.height = iconSize;
     img.loading = "eager";
     img.decoding = "async";
 
