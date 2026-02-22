@@ -455,7 +455,7 @@ function injectCertificationLogos() {
   const logoByTitle = {
     datacamp: "https://cdn.simpleicons.org/datacamp/03EF62",
     udemy: "https://cdn.simpleicons.org/udemy/A435F0",
-    alura: "https://cdn.simpleicons.org/alura/00C2FF"
+    alura: "https://www.alura.com.br/assets/img/home/alura-logo.svg"
   };
 
   document.querySelectorAll(".cert-group-title").forEach((title) => {
