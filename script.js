@@ -8,9 +8,7 @@ const translations = {
     heroCopy:
       "I started in radio network optimization and moved into automation and software delivery. Today I build tools that combine telecom operations, data pipelines, and AI-assisted development for production teams.",
     chipRan: "RAN Optimization",
-    chipPythonSql: "Python + SQL + BI",
-    chipApi: "FastAPI / Flask",
-    chipPowerBi: "BI",
+    chipAutomation: "Automation",
     chipAiDelivery: "AI-assisted delivery",
     chipCertifications: "Certifications",
     chipPersonalProjects: "Personal Projects",
@@ -28,35 +26,15 @@ const translations = {
     detailRanItem4:
       "Map export routines for relation update files used in optimization handoffs.",
 
-    detailPythonSqlTitle: "Python + SQL + BI",
-    detailPythonSqlItem1:
-      "COPS database modeling updates and SQL tuning for larger KPI retention windows.",
-    detailPythonSqlItem2:
-      "E2E audit automation comparing NE parameter values across network elements.",
-    detailPythonSqlItem3:
-      "Batch routines for KPI extraction, pre/post analysis, and scheduled processing.",
-    detailPythonSqlItem4:
-      "BI dashboards for live monitoring and shift tracking fed by Python/SQL prepared datasets.",
-
-    detailApiTitle: "FastAPI / Flask",
-    detailApiItem1:
-      "MoB KML FastAPI backend with endpoints for upload, auto-mapping, filters, and exports.",
-    detailApiItem2:
-      "Neighbor Viewer API routes for relation queries, map layers, and export generation.",
-    detailApiItem3:
-      "Flask backend for Pescados with product, transaction, and sync APIs.",
-    detailApiItem4:
-      "CorretorOnline API flow for comparables search and valuation-oriented endpoints.",
-
-    detailPowerBiTitle: "BI",
-    detailPowerBiItem1:
-      "Live Monitoring dashboards for major events such as The Town and Lollapalooza.",
-    detailPowerBiItem2:
-      "Shift-focused views for anomaly tracking and cluster behavior follow-up.",
-    detailPowerBiItem3:
-      "Data sources prepared by Python/SQL routines before BI consumption.",
-    detailPowerBiItem4:
-      "Operational dashboard layout optimized for critical event windows.",
+    detailAutomationTitle: "Automation",
+    detailAutomationItem1:
+      "Python and SQL workflows for KPI extraction, parameter audits, and batch analysis.",
+    detailAutomationItem2:
+      "BI dashboards for live monitoring and shift tracking, fed by prepared automation pipelines.",
+    detailAutomationItem3:
+      "FastAPI and Flask backends serving telecom tools, inventory apps, and valuation workflows.",
+    detailAutomationItem4:
+      "E2E audit automation comparing parameter values across network elements.",
 
     detailAiTitle: "AI-assisted delivery",
     detailAiItem1:
@@ -207,9 +185,7 @@ const translations = {
     heroCopy:
       "Comecei na otimização de rede rádio e migrei para automação e entrega de software. Hoje construo ferramentas que juntam operação de telecom, pipeline de dados e desenvolvimento assistido por IA para uso em produção.",
     chipRan: "Otimização RAN",
-    chipPythonSql: "Python + SQL + BI",
-    chipApi: "FastAPI / Flask",
-    chipPowerBi: "BI",
+    chipAutomation: "Automação",
     chipAiDelivery: "Entrega assistida por IA",
     chipCertifications: "Certificações",
     chipPersonalProjects: "Projetos Pessoais",
@@ -227,35 +203,15 @@ const translations = {
     detailRanItem4:
       "Rotinas de exportação para arquivos de ajuste de relações usados no handoff de otimização.",
 
-    detailPythonSqlTitle: "Python + SQL + BI",
-    detailPythonSqlItem1:
-      "Evolução de modelagem no COPS e ajuste SQL para ampliar janelas de retenção de KPI.",
-    detailPythonSqlItem2:
+    detailAutomationTitle: "Automação",
+    detailAutomationItem1:
+      "Fluxos Python e SQL para extração de KPI, auditoria de parâmetros e análise em lote.",
+    detailAutomationItem2:
+      "Dashboards de BI para monitoramento ao vivo e acompanhamento de turno, alimentados por pipelines de automação.",
+    detailAutomationItem3:
+      "Backends FastAPI e Flask para ferramentas de telecom, apps de estoque e fluxos de avaliação.",
+    detailAutomationItem4:
       "Automação de auditoria E2E comparando parâmetros entre elementos de rede.",
-    detailPythonSqlItem3:
-      "Rotinas em lote para extração de KPI, análise pré/pós e processamento agendado.",
-    detailPythonSqlItem4:
-      "Dashboards de BI para monitoramento ao vivo e acompanhamento de turno alimentados por bases preparadas em Python/SQL.",
-
-    detailApiTitle: "FastAPI / Flask",
-    detailApiItem1:
-      "Backend FastAPI do MoB KML com endpoints de upload, auto-mapeamento, filtros e exportação.",
-    detailApiItem2:
-      "Rotas de API do Neighbor Viewer para consulta de relações, camadas de mapa e geração de exportações.",
-    detailApiItem3:
-      "Backend Flask do Pescados com APIs de produto, transação e sincronização.",
-    detailApiItem4:
-      "Fluxo de API do CorretorOnline para busca de comparáveis e endpoints de suporte à avaliação.",
-
-    detailPowerBiTitle: "BI",
-    detailPowerBiItem1:
-      "Dashboards de Live Monitoring para grandes eventos como The Town e Lollapalooza.",
-    detailPowerBiItem2:
-      "Visões de turno para acompanhamento de anomalias e comportamento de cluster.",
-    detailPowerBiItem3:
-      "Fontes preparadas por rotinas Python/SQL antes do consumo em BI.",
-    detailPowerBiItem4:
-      "Layout operacional de dashboard para decisão telecom em janela crítica.",
 
     detailAiTitle: "Entrega assistida por IA",
     detailAiItem1:
@@ -465,8 +421,7 @@ function updateProjectFilter(topic) {
 function updateSectionVisibility(topic) {
   const compactMode =
     topic === "personal-projects" ||
-    topic === "python-sql" ||
-    topic === "api" ||
+    topic === "automation" ||
     topic === "ai-delivery" ||
     topic === "certifications";
   sectionsHiddenInPersonalMode.forEach((section) => {
