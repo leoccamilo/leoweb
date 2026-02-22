@@ -1,6 +1,4 @@
 :root {
-  --bg: #0c1117;
-  --bg-soft: #111927;
   --panel: rgba(16, 27, 40, 0.76);
   --line: rgba(136, 183, 255, 0.24);
   --text: #eaf2ff;
@@ -202,36 +200,6 @@ h3 {
   font-size: 1.08rem;
 }
 
-.meta {
-  margin: 0;
-  color: var(--primary);
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 0.84rem;
-}
-
-.timeline {
-  display: grid;
-  gap: 0.9rem;
-}
-
-.timeline article {
-  padding: 0.85rem;
-  border-radius: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(8, 14, 22, 0.62);
-}
-
-.timeline p {
-  margin-bottom: 0;
-  color: var(--muted);
-}
-
-.grid-two {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-}
-
 ul,
 ol {
   margin: 0;
@@ -261,20 +229,10 @@ li + li {
   margin: 0.45rem 0;
 }
 
-.project-card .stack {
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 0.8rem;
-  color: #b9ddff;
-}
-
 a {
   color: var(--primary);
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
-}
-
-.placeholder {
-  border-style: dashed;
 }
 
 footer {
@@ -339,7 +297,6 @@ footer {
 }
 
 @media (max-width: 920px) {
-  .grid-two,
   .project-grid,
   .hero-layout {
     grid-template-columns: 1fr;
