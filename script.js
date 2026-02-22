@@ -392,7 +392,7 @@ function updateProjectFilter(topic) {
       .split(",")
       .map((item) => item.trim())
       .filter(Boolean)
-      .map((item) => (item === "ran" || item === "personal-projects" ? "automation" : item));
+      .map((item) => (item === "ran" ? "automation" : item));
 
     card.hidden = currentTopic ? !topics.includes(currentTopic) : false;
   });
@@ -440,12 +440,48 @@ function setActiveDetail(topic) {
   updateSectionVisibility(activeDetailTopic);
 }
 
+function injectCertificationLogos() {
+  const logoByTitle = {
+    datacamp: "https://cdn.simpleicons.org/datacamp/03EF62",
+    udemy: "https://cdn.simpleicons.org/udemy/A435F0",
+    alura: "https://cdn.simpleicons.org/alura/051933"
+  };
+
+  document.querySelectorAll(".cert-group-title").forEach((title) => {
+    if (title.querySelector(".cert-logo")) {
+      return;
+    }
+
+    const normalized = title.textContent.trim().toLowerCase();
+    const logo = logoByTitle[normalized];
+    if (!logo) {
+      return;
+    }
+
+    title.style.display = "flex";
+    title.style.alignItems = "center";
+    title.style.gap = "0.45rem";
+
+    const img = document.createElement("img");
+    img.className = "cert-logo";
+    img.src = logo;
+    img.alt = `${title.textContent.trim()} logo`;
+    img.width = 16;
+    img.height = 16;
+    img.loading = "lazy";
+    img.decoding = "async";
+
+    title.prepend(img);
+  });
+}
+
 chipButtons.forEach((button) => {
   button.addEventListener("click", () => {
     setActiveDetail(button.dataset.detailTopic);
   });
 });
 
+injectCertificationLogos();
 const browserLanguage = navigator.language && navigator.language.toLowerCase().startsWith("pt") ? "pt" : "en";
 const savedLanguage = localStorage.getItem("preferred-language");
 applyLanguage(savedLanguage || browserLanguage);
