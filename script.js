@@ -26,7 +26,7 @@ const translations = {
 
     detailAutomationTitle: "Automation",
     detailAutomationItem1:
-      "Python and SQL workflows for KPI extraction, parameter audits, and batch analysis.",
+      "Python and SQL workflows for KPI extraction, parameter audits, and large-scale analysis.",
     detailAutomationItem2:
       "BI dashboards for online monitoring of large-scale events (such as Lollapalooza and The Town), fed by prepared automation pipelines.",
     detailAutomationItem3:
@@ -207,7 +207,7 @@ const translations = {
 
     detailAutomationTitle: "Automação",
     detailAutomationItem1:
-      "Fluxos Python e SQL para extração de KPI, auditoria de parâmetros e análise em lote.",
+      "Fluxos Python e SQL para extração de KPI, auditoria de parâmetros e análises massivas.",
     detailAutomationItem2:
       "Dashboards de BI para monitoramento online de grandes eventos (como Lollapalooza e The Town), alimentados por pipelines de automação.",
     detailAutomationItem3:
