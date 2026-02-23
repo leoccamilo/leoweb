@@ -30,7 +30,7 @@ const translations = {
     detailAutomationItem2:
       "BI dashboards for online monitoring of large-scale events (such as Lollapalooza and The Town), fed by prepared automation pipelines.",
     detailAutomationItem3:
-      "FastAPI and Flask backends serving telecom tools, inventory apps, and valuation workflows.",
+      "Backend solutions with FastAPI, Flask and REST APIs, including advanced modeling, querying and integration with SQL Server and PostgreSQL, plus frontend stacks with HTML/CSS/JavaScript, React, Tailwind and Leaflet.js for web engineering tools.",
     detailAutomationItem4:
       "E2E audit automation comparing parameter values across network elements.",
 
@@ -211,7 +211,7 @@ const translations = {
     detailAutomationItem2:
       "Dashboards de BI para monitoramento online de grandes eventos (como Lollapalooza e The Town), alimentados por pipelines de automação.",
     detailAutomationItem3:
-      "Backends FastAPI e Flask para ferramentas de telecom, apps de estoque e fluxos de avaliação.",
+      "Soluções de backend com FastAPI, Flask e APIs REST, com modelagem, consultas avançadas e integração com SQL Server e PostgreSQL, além de frontend com HTML/CSS/JavaScript, React, Tailwind e Leaflet.js para desenvolvimento de ferramentas web.",
     detailAutomationItem4:
       "Automação de auditoria E2E comparando parâmetros entre elementos de rede.",
 
