@@ -33,16 +33,18 @@ const translations = {
       "Backend solutions with FastAPI, Flask and REST APIs, including advanced modeling, querying and integration with SQL Server and PostgreSQL, plus frontend stacks with HTML/CSS/JavaScript, React, Tailwind and Leaflet.js for web engineering tools.",
     detailAutomationItem4:
       "E2E audit automation comparing parameter values across network elements.",
+    detailAutomationItem5:
+      "Code versioning with GitHub and GitLab, organizing engineering tools and ensuring safe evolution through commits, resets and collaborative workflows.",
 
     detailAiTitle: "AI-assisted delivery",
     detailAiItem1:
-      "Cursor, Claude Code, and Codex used for code generation, refactoring, and review loops.",
+      "Cursor, Claude Code, and Codex used for code generation, refactoring, and engineering review loops.",
     detailAiItem2:
-      "MCP-based workflows to connect tools and reduce context switching.",
+      "Repository structures designed for AI collaboration, with clear README documentation, project context files and rule-based workflows.",
     detailAiItem3:
-      "Prompt engineering practices documented and shared with telecom engineering teams.",
+      "MCP workflows connecting tools like GitHub, Playwright and Power BI, extending what AI agents can access and automate.",
     detailAiItem4:
-      "Strict no-mock validation rule for sensitive valuation workflows.",
+      "Prompt engineering following the 'four golden rules' approach — and a strict no-mock policy for any workflow where the output actually matters.",
 
     detailCertTitle: "Certifications",
     detailCertItem1:
@@ -214,16 +216,18 @@ const translations = {
       "Soluções de backend com FastAPI, Flask e APIs REST, com modelagem, consultas avançadas e integração com SQL Server e PostgreSQL, além de frontend com HTML/CSS/JavaScript, React, Tailwind e Leaflet.js para desenvolvimento de ferramentas web.",
     detailAutomationItem4:
       "Automação de auditoria E2E comparando parâmetros entre elementos de rede.",
+    detailAutomationItem5:
+      "Versionamento de código com GitHub e GitLab, organizando ferramentas de engenharia e garantindo evolução segura por meio de commits, resets e fluxos colaborativos.",
 
     detailAiTitle: "Entrega assistida por IA",
     detailAiItem1:
-      "Uso de Cursor, Claude Code e Codex para geração de código, refatoração e ciclos de revisão.",
+      "Cursor, Claude Code e Codex aplicados em geração de código, refatoração e ciclos de revisão de engenharia.",
     detailAiItem2:
-      "Fluxos com MCP para conectar ferramentas e reduzir troca de contexto.",
+      "Repositórios estruturados para colaboração com IA, com README claro, arquivos de contexto de projeto e fluxos baseados em regras.",
     detailAiItem3:
-      "Práticas de engenharia de prompt documentadas e compartilhadas com equipes de engenharia de telecom.",
+      "Fluxos MCP conectando ferramentas como GitHub, Playwright e Power BI, ampliando o que agentes de IA conseguem acessar e automatizar.",
     detailAiItem4:
-      "Regra rígida de não usar dados simulados em fluxos sensíveis de avaliação.",
+      "Engenharia de prompt seguindo a abordagem das 'quatro regras de ouro' — e uma política rígida de sem dados simulados em qualquer fluxo onde o resultado realmente importa.",
 
     detailCertTitle: "Certificações",
     detailCertItem1:
@@ -454,7 +458,7 @@ function updateSectionVisibility(topic) {
   }
 
   if (selectedProjectsSection) {
-    selectedProjectsSection.hidden = topic === "certifications" || topic === "ran";
+    selectedProjectsSection.hidden = topic === "certifications" || topic === "ran" || topic === "ai-delivery";
   }
 
   if (downloadsSection) {
