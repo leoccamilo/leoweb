@@ -89,7 +89,12 @@ const translations = {
     presentation2Title: "Digital Transformation in Engineering Routines",
     presentation2Desc:
       "A knowledge-sharing presentation on using automation and data to modernize engineering routines.",
+    presentation3Title: "Git Guardrails for Vibe Coding",
+    presentation3Desc:
+      "A practical guide to prevent the most common Git mistakes when coding with AI tools. Includes ready-to-use prompt files for Cursor and Claude Code.",
     openPresentation: "Open presentation",
+    downloadCursorRules: "↓ Cursor rules",
+    downloadClaudeRules: "↓ Claude Code rules",
     certificationsTitle: "Certifications",
     viewCredential: "View credential",
 
@@ -272,7 +277,12 @@ const translations = {
     presentation2Title: "Transformação Digital em Rotinas de Engenharia",
     presentation2Desc:
       "Apresentação de compartilhamento técnico sobre uso de automação e dados para modernizar rotinas de engenharia.",
+    presentation3Title: "Git Guardrails para Vibe Coding",
+    presentation3Desc:
+      "Guia prático para evitar os erros mais comuns de Git ao programar com ferramentas de IA. Inclui arquivos de prompt prontos para Cursor e Claude Code.",
     openPresentation: "Abrir apresentação",
+    downloadCursorRules: "↓ Regras para Cursor",
+    downloadClaudeRules: "↓ Regras para Claude Code",
     certificationsTitle: "Certificações",
     viewCredential: "Ver credencial",
 
@@ -538,3 +548,4 @@ applyLanguage(savedLanguage || browserLanguage);
 document.getElementById("language-switch")?.addEventListener("change", (event) => {
   applyLanguage(event.target.value);
 });
+
