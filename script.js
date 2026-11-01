@@ -178,6 +178,9 @@ const translations = {
     dl2Desc:
       "Batch converter for Ericsson XML and ZIP network configuration dumps. Outputs structured TXT, CSV, or XLSX with 21 automatic post-processing stages. Drag and drop support — built for day-to-day optimization routines.",
     downloadBtn: "Download",
+    dl3Desc:
+      "Multi-channel terminal for Ericsson ENM: one tab per site, Bulk Connect for whole clusters, and long command blocks sent in controlled batches. The user guide is available now; the Lite version comes next.",
+    openUserGuide: "Open user guide",
 
     problemLabel: "Problem:",
     solutionLabel: "Solution:",
@@ -365,6 +368,9 @@ const translations = {
     dl2Desc:
       "Conversor em lote de dumps XML e ZIP de configuração de rede Ericsson. Gera saídas em TXT, CSV ou XLSX com 21 etapas automáticas de pós-processamento. Suporte a drag & drop — criado para rotinas de otimização.",
     downloadBtn: "Download",
+    dl3Desc:
+      "Terminal multicanal para o ENM Ericsson: uma aba por site, Bulk Connect para o cluster inteiro e blocos longos de comandos enviados em lotes controlados. O guia do usuário já está disponível; a versão Lite vem em seguida.",
+    openUserGuide: "Abrir guia do usuário",
 
     problemLabel: "Problema:",
     solutionLabel: "Solução:",
