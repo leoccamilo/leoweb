@@ -174,7 +174,7 @@ const translations = {
     downloadsIntro:
       "These tools were built from real telecom engineering routines. Download them and see the kind of work behind this portfolio.",
     dl1Desc:
-      "Turns telecom inventory files into an interactive sector map with directional petals, band coloring, regional filters, and KML export. Supports LTE and 5G NR from 700MHz to 3700MHz. No Python required — extract and run.",
+      "Turns telecom inventory files into an interactive sector map with directional petals, regional filters, and KML export. Identifies the bands of any LTE / 5G NR inventory automatically (3GPP tables, 600 MHz to mmWave), and every band stays editable. No Python required — extract and run.",
     dl2Desc:
       "Batch converter for Ericsson XML and ZIP network configuration dumps. Outputs structured TXT, CSV, or XLSX with 21 automatic post-processing stages. Drag and drop support — built for day-to-day optimization routines.",
     downloadBtn: "Download",
@@ -361,7 +361,7 @@ const translations = {
     downloadsIntro:
       "Essas ferramentas foram construídas a partir de rotinas reais de engenharia em telecom. Baixe e veja o tipo de trabalho que está por trás desse portfólio.",
     dl1Desc:
-      "Transforma arquivos de inventário de telecom em mapa interativo com pétalas direcionais por setor, cores por banda, filtros regionais e exportação KML. Suporte a LTE e 5G NR de 700MHz a 3700MHz. Sem Python — extraia e execute.",
+      "Transforma arquivos de inventário de telecom em mapa interativo com pétalas direcionais por setor, filtros regionais e exportação KML. Identifica automaticamente as bandas de qualquer inventário LTE / 5G NR (tabelas 3GPP, de 600 MHz a mmWave), e cada banda pode ser ajustada. Sem Python — extraia e execute.",
     dl2Desc:
       "Conversor em lote de dumps XML e ZIP de configuração de rede Ericsson. Gera saídas em TXT, CSV ou XLSX com 21 etapas automáticas de pós-processamento. Suporte a drag & drop — criado para rotinas de otimização.",
     downloadBtn: "Download",
