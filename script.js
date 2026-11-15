@@ -181,6 +181,13 @@ const translations = {
     dl3Desc:
       "Multi-channel terminal for Ericsson ENM: one tab per site, Bulk Connect for whole clusters, and long command blocks sent in controlled batches. The user guide is available now; the Lite version comes next.",
     openUserGuide: "Open user guide",
+    watchDemo: "▶ Watch demo video",
+    downloadUserGuideEn: "↓ Download user guide (EN)",
+    downloadPdf: "↓ Download PDF",
+    chipEnmCli: "Ericsson CLI Commands",
+    detailEnmCliTitle: "Ericsson CLI Commands",
+    detailEnmCliIntro:
+      "A quick guide with the ENM CLI commands I use most in daily operations: alarms, statistics and configuration, ready to copy. Shared to exchange knowledge — questions and tips are welcome. In Portuguese.",
     openUserGuideEn: "Open user guide (EN)",
     openUserGuidePt: "Open user guide (PT)",
     presentation4Title: "ENM CLI Commands — Quick Guide",
@@ -376,6 +383,13 @@ const translations = {
     dl3Desc:
       "Terminal multicanal para o ENM Ericsson: uma aba por site, Bulk Connect para o cluster inteiro e blocos longos de comandos enviados em lotes controlados. O guia do usuário já está disponível; a versão Lite vem em seguida.",
     openUserGuide: "Abrir guia do usuário",
+    watchDemo: "▶ Assistir vídeo demo",
+    downloadUserGuideEn: "↓ Baixar guia do usuário (EN)",
+    downloadPdf: "↓ Baixar PDF",
+    chipEnmCli: "Comandos CLI Ericsson",
+    detailEnmCliTitle: "Comandos CLI Ericsson",
+    detailEnmCliIntro:
+      "Guia rápido com os comandos CLI do ENM que mais uso no dia a dia da operação: alarmes, estatísticas e configuração, prontos para copiar. Compartilhado para trocar conhecimento — dúvidas e dicas são bem-vindas.",
     openUserGuideEn: "Abrir guia do usuário (EN)",
     openUserGuidePt: "Abrir guia do usuário (PT)",
     presentation4Title: "Comandos ENM CLI — Guia Rápido",
@@ -474,7 +488,8 @@ function updateSectionVisibility(topic) {
     topic === "personal-projects" ||
     topic === "automation" ||
     topic === "ai-delivery" ||
-    topic === "certifications";
+    topic === "certifications" ||
+    topic === "enm-cli";
   sectionsHiddenInPersonalMode.forEach((section) => {
     section.hidden = compactMode;
   });
@@ -484,7 +499,7 @@ function updateSectionVisibility(topic) {
   }
 
   if (selectedProjectsSection) {
-    selectedProjectsSection.hidden = topic === "certifications" || topic === "ran" || topic === "ai-delivery";
+    selectedProjectsSection.hidden = topic === "certifications" || topic === "ran" || topic === "ai-delivery" || topic === "enm-cli";
   }
 
   if (downloadsSection) {

@@ -288,12 +288,15 @@ footer {
   margin-top: 0.25rem;
 }
 
-.card-video {
+#downloads-section .project-card a {
   display: block;
-  width: 100%;
-  border-radius: 10px;
-  margin: 0.5rem 0;
-  background: #000;
+  width: fit-content;
+  margin: 0.3rem 0;
+}
+
+.detail-panel a {
+  display: inline-block;
+  margin-right: 1.1rem;
 }
 
 .dl-meta {
