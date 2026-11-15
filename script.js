@@ -488,8 +488,7 @@ function updateSectionVisibility(topic) {
     topic === "personal-projects" ||
     topic === "automation" ||
     topic === "ai-delivery" ||
-    topic === "certifications" ||
-    topic === "enm-cli";
+    topic === "certifications";
   sectionsHiddenInPersonalMode.forEach((section) => {
     section.hidden = compactMode;
   });
@@ -499,7 +498,7 @@ function updateSectionVisibility(topic) {
   }
 
   if (selectedProjectsSection) {
-    selectedProjectsSection.hidden = topic === "certifications" || topic === "ran" || topic === "ai-delivery" || topic === "enm-cli";
+    selectedProjectsSection.hidden = topic === "certifications" || topic === "ran" || topic === "ai-delivery";
   }
 
   if (downloadsSection) {

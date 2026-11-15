@@ -294,11 +294,6 @@ footer {
   margin: 0.3rem 0;
 }
 
-.detail-panel a {
-  display: inline-block;
-  margin-right: 1.1rem;
-}
-
 .dl-meta {
   font-size: 0.78rem;
   color: var(--muted);
