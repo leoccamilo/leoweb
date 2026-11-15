@@ -181,6 +181,11 @@ const translations = {
     dl3Desc:
       "Multi-channel terminal for Ericsson ENM: one tab per site, Bulk Connect for whole clusters, and long command blocks sent in controlled batches. The user guide is available now; the Lite version comes next.",
     openUserGuide: "Open user guide",
+    openUserGuideEn: "Open user guide (EN)",
+    openUserGuidePt: "Open user guide (PT)",
+    presentation4Title: "ENM CLI Commands — Quick Guide",
+    presentation4Desc:
+      "The ENM CLI commands I use most in daily operations: alarms, statistics and configuration, ready to copy. In Portuguese.",
 
     problemLabel: "Problem:",
     solutionLabel: "Solution:",
@@ -371,6 +376,11 @@ const translations = {
     dl3Desc:
       "Terminal multicanal para o ENM Ericsson: uma aba por site, Bulk Connect para o cluster inteiro e blocos longos de comandos enviados em lotes controlados. O guia do usuário já está disponível; a versão Lite vem em seguida.",
     openUserGuide: "Abrir guia do usuário",
+    openUserGuideEn: "Abrir guia do usuário (EN)",
+    openUserGuidePt: "Abrir guia do usuário (PT)",
+    presentation4Title: "Comandos ENM CLI — Guia Rápido",
+    presentation4Desc:
+      "Os comandos CLI do ENM que mais uso no dia a dia da operação: alarmes, estatísticas e configuração, prontos para copiar.",
 
     problemLabel: "Problema:",
     solutionLabel: "Solução:",

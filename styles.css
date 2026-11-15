@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --panel: rgba(16, 27, 40, 0.76);
   --line: rgba(136, 183, 255, 0.24);
   --text: #eaf2ff;
@@ -286,6 +286,14 @@ footer {
 
 .cert-group-title:first-of-type {
   margin-top: 0.25rem;
+}
+
+.card-video {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  margin: 0.5rem 0;
+  background: #000;
 }
 
 .dl-meta {
